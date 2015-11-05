@@ -824,6 +824,13 @@ final class DefaultPermissionGrantPolicy {
             if (omnijawspackage != null && doesPackageSupportRuntimePermissions(omnijawspackage)) {
                 grantRuntimePermissionsLPw(omnijawspackage, LOCATION_PERMISSIONS, userId);
             }
+
+            // alogcat
+            PackageParser.Package alogcatpackage = getSystemPackageLPr(
+                    "org.jtb.alogcat");
+            if (alogcatpackage != null && doesPackageSupportRuntimePermissions(alogcatpackage)) {
+                grantRuntimePermissionsLPw(alogcatpackage, READ_LOGS, userId);
+            }
         }
     }
 
