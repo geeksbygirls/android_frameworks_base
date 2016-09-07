@@ -6147,6 +6147,13 @@ public static final String PHONE_BLACKLIST_REGEX_ENABLED = "phone_blacklist_rege
         public static final String SENSOR_BLOCK = "sensor_block";
 
         /**
+         * Should the alarm be shown in fullscreen instead of heads-up
+         *
+         * @hide
+         */
+        public static final String SHOW_ALARM_FULLSCREEN = "show_alarm_fullscreen";
+
+        /**
          * Settings to backup. This is here so that it's in the same place as the settings
          * keys and easy to update.
          *
@@ -6254,6 +6261,7 @@ public static final String PHONE_BLACKLIST_REGEX_ENABLED = "phone_blacklist_rege
             PUBLIC_SETTINGS.add(HAPTIC_FEEDBACK_ENABLED);
             PUBLIC_SETTINGS.add(SHOW_WEB_SUGGESTIONS);
             PUBLIC_SETTINGS.add(VIBRATE_WHEN_RINGING);
+            PUBLIC_SETTINGS.add(SHOW_ALARM_FULLSCREEN);
         }
 
         /**
