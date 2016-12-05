@@ -1995,7 +1995,6 @@ class BluetoothManagerService extends IBluetoothManager.Stub {
         } finally {
             mBluetoothLock.readLock().unlock();
         }
-        waitForMonitoredOnOff(false, true);
 
         sendBluetoothServiceDownCallback();
 
