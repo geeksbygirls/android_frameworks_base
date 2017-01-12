@@ -64,6 +64,8 @@ public class BatteryMeterDrawable extends Drawable implements
     public static final String SHOW_PERCENT_SETTING = "status_bar_show_battery_percent";
     private static final String STATUS_BAR_CHARGE_COLOR =
             Settings.Secure.STATUS_BAR_CHARGE_COLOR;
+    private static final String BATTERY_LARGE_TEXT =
+            Settings.System.BATTERY_LARGE_TEXT;
 
     private static final boolean SINGLE_DIGIT_PERCENT = false;
 
@@ -75,10 +77,10 @@ public class BatteryMeterDrawable extends Drawable implements
     public static final int BATTERY_STYLE_PORTRAIT  = 0;
     public static final int BATTERY_STYLE_SOLID     = 1;
     public static final int BATTERY_STYLE_CIRCLE    = 2;
-    public static final int BATTERY_STYLE_HIDDEN    = 3;
-    public static final int BATTERY_STYLE_LANDSCAPE = 4;
-    public static final int BATTERY_STYLE_TEXT      = 5;
-    public static final int BATTERY_STYLE_BIGCIRCLE    = 6;
+    public static final int BATTERY_STYLE_BIGCIRCLE = 3;
+    public static final int BATTERY_STYLE_HIDDEN    = 4;
+    public static final int BATTERY_STYLE_LANDSCAPE = 5;
+    public static final int BATTERY_STYLE_TEXT      = 6;
 
     private final int[] mColors;
     private final int mIntrinsicWidth;
@@ -262,6 +264,9 @@ public class BatteryMeterDrawable extends Drawable implements
                 false, mSettingObserver);
         mContext.getContentResolver().registerContentObserver(
                 Settings.Secure.getUriFor(Settings.Secure.STATUS_BAR_CHARGE_COLOR),
+                false, mSettingObserver);
+        mContext.getContentResolver().registerContentObserver(
+                Settings.System.getUriFor(BATTERY_LARGE_TEXT),
                 false, mSettingObserver);
         mContext.getContentResolver().registerContentObserver(
                 CMSettings.System.getUriFor(CMSettings.System.STATUS_BAR_BATTERY_STYLE),
@@ -565,12 +570,6 @@ public class BatteryMeterDrawable extends Drawable implements
         mBoltDrawable = mBatteryDrawable.findDrawableByLayerId(R.id.battery_charge_indicator);
     }
 
-    private boolean isThemeApplied() {
-        final ThemeConfig themeConfig = ThemeConfig.getBootTheme(mContext.getContentResolver());
-        return themeConfig != null &&
-                !ThemeConfig.SYSTEM_DEFAULT.equals(themeConfig.getOverlayForStatusBar());
-    }
-
     private void checkBatteryMeterDrawableValid(Resources res, int style) {
         final int resId = getBatteryDrawableResourceForStyle(style);
         final Drawable batteryDrawable;
@@ -635,6 +634,7 @@ public class BatteryMeterDrawable extends Drawable implements
             case BATTERY_STYLE_LANDSCAPE:
                 return R.style.BatteryMeterViewDrawable_Landscape;
             case BATTERY_STYLE_CIRCLE:
+                return R.style.BatteryMeterViewDrawable_Circle;
             case BATTERY_STYLE_BIGCIRCLE:
                 return R.style.BatteryMeterViewDrawable_Circle;
 			case BATTERY_STYLE_SOLID:
@@ -671,16 +671,19 @@ public class BatteryMeterDrawable extends Drawable implements
         final float textSize;
         switch(mStyle) {
             case BATTERY_STYLE_CIRCLE:
-                textSize = widthDiv2 - mContext.getResources().getDisplayMetrics().density / 1.3f;
+                textSize = widthDiv2 * 1.0f;
                 break;
             case BATTERY_STYLE_LANDSCAPE:
                 textSize = widthDiv2 * 1.3f;
                 break;
             case BATTERY_STYLE_BIGCIRCLE:
-                textSize = widthDiv2 * 1.2f;
+                textSize = widthDiv2 * 1.3f;
+                break;
+            case BATTERY_STYLE_SOLID:
+                textSize = widthDiv2 * 1.0f;
                 break;
             default:
-                textSize = widthDiv2;
+                textSize = widthDiv2 * 0.9f;
                 break;
                 }
         mTextAndBoltPaint.setTextSize(textSize);
