@@ -30,6 +30,9 @@
     <uses-permission android:name="com.cyanogenmod.lockclock.permission.READ_WEATHER" />
     <protected-broadcast android:name="com.cyanogenmod.lockclock.action.FORCE_WEATHER_UPDATE" />
 
+    <!--OmniJaws -->
+    <uses-permission android:name="org.omnirom.omnijaws.READ_WEATHER" />
+
     <!-- NFC Tile -->
     <uses-permission android:name="android.permission.NFC" />
 
