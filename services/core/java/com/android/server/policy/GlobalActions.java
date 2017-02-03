@@ -357,10 +357,14 @@ public class GlobalActions implements DialogInterface.OnDismissListener, DialogI
                 attrs.gravity = Gravity.CENTER_VERTICAL|Gravity.CENTER_HORIZONTAL;
         }
         if (powermenuAnimations == 9) {
+                attrs.windowAnimations = R.style.PowerMenuFadeAnimation;
+                attrs.gravity = Gravity.CENTER_VERTICAL|Gravity.CENTER_HORIZONTAL;
+        }
+        if (powermenuAnimations == 10) {
                 attrs.windowAnimations = R.style.PowerMenuTranslucentAnimation;
                 attrs.gravity = Gravity.TOP|Gravity.CENTER_HORIZONTAL;
         }
-        if (powermenuAnimations == 10) {
+        if (powermenuAnimations == 11) {
                 attrs.windowAnimations = R.style.PowerMenuTranslucentAnimation;
                 attrs.gravity = Gravity.BOTTOM|Gravity.CENTER_HORIZONTAL;
         }            
