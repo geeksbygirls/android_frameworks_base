@@ -126,6 +126,7 @@
     <string name="quick_settings_appsidebar_title">App side bar</string>
     <string name="quick_settings_appsidebar_on">App side bar On</string>
     <string name="quick_settings_appsidebar_off">App side bar Off</string>
+    <string name="quick_settings_androidauto_label">Android Auto</string>
     <!-- Pulse Tile -->
     <string name="quick_settings_pulse_enabled">Pulse enabled</string>
     <string name="quick_settings_pulse_disabled">No visualizer</string>
