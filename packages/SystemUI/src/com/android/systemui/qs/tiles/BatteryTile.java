@@ -63,8 +63,8 @@ public class BatteryTile extends QSTile<QSTile.State> implements BatteryControll
     private boolean mPluggedIn;
     private int mBatteryStyleTile;
 
-    public static final int BATTERY_STYLE_HIDDEN    = 4;
-    public static final int BATTERY_STYLE_TEXT      = 6;
+    public static final int BATTERY_STYLE_HIDDEN    = 5;
+    public static final int BATTERY_STYLE_TEXT      = 7;
 
     public BatteryTile(Host host) {
         super(host);
