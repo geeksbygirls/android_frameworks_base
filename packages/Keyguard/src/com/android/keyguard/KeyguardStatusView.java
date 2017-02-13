@@ -745,7 +745,18 @@ public class KeyguardStatusView extends GridLayout implements
         View weatherPanel = findViewById(R.id.weather_panel);
         TextView noWeatherInfo = (TextView) findViewById(R.id.no_weather_info_text);
         AlarmManager.AlarmClockInfo nextAlarm =
-            mAlarmManager.getNextAlarmClock(UserHandle.USER_CURRENT);
+                mAlarmManager.getNextAlarmClock(UserHandle.USER_CURRENT); 
+        mShowWeather = Settings.System.getInt(resolver,
+                Settings.System.LOCK_SCREEN_SHOW_WEATHER, 0) == 1;
+        mIconColor = Settings.System.getInt(resolver,
+                Settings.System.LOCK_SCREEN_WEATHER_ICON_COLOR, -2);
+        boolean showLocation = Settings.System.getInt(resolver,
+                Settings.System.LOCK_SCREEN_SHOW_WEATHER_LOCATION, 1) == 1;
+        boolean showCon = Settings.System.getInt(resolver,
+                Settings.System.LOCK_SCREEN_SHOW_WEATHER_CONDITION, 1) == 1;
+        int iconNameValue = Settings.System.getInt(resolver,
+                Settings.System.LOCK_SCREEN_WEATHER_CONDITION_ICON, 0);
+
         int maxAllowedNotifications = 6;
         int currentVisibleNotifications = Settings.System.getInt(resolver,
             Settings.System.LOCK_SCREEN_VISIBLE_NOTIFICATIONS, 0);
@@ -789,7 +800,7 @@ public class KeyguardStatusView extends GridLayout implements
             if (weatherPanel != null)
                 weatherPanel.setVisibility(View.VISIBLE);
             if (mWeatherConditionText != null)
-                mWeatherConditionText.setVisibility(View.VISIBLE);
+                mWeatherConditionText.setVisibility(showCon ? View.VISIBLE :View.VISIBLE);
             if (mWeatherCity != null)
                 mWeatherCity.setVisibility(showLocation ? View.VISIBLE : View.INVISIBLE);
         }
