@@ -800,7 +800,7 @@ public class KeyguardStatusView extends GridLayout implements
             if (weatherPanel != null)
                 weatherPanel.setVisibility(View.VISIBLE);
             if (mWeatherConditionText != null)
-                mWeatherConditionText.setVisibility(showCon ? View.VISIBLE :View.VISIBLE);
+                mWeatherConditionText.setVisibility(showCon ? View.VISIBLE :View.INVISIBLE);
             if (mWeatherCity != null)
                 mWeatherCity.setVisibility(showLocation ? View.VISIBLE : View.INVISIBLE);
         }
