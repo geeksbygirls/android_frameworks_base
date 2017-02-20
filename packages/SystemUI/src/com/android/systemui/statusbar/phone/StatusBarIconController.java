@@ -377,7 +377,6 @@ public class StatusBarIconController extends StatusBarIconList implements Tunabl
     public void hideSystemIconArea(boolean animate) {
         animateHide(mSystemIconArea, animate);
         animateHide(mCenterClockLayout, animate);
-        animateHide(mBatteryBarController, animate);
         if (Settings.System.getInt(mContext.getContentResolver(),
                 Settings.System.STATUS_BAR_RR_LOGO, 0) == 1  &&
            (Settings.System.getIntForUser(mContext.getContentResolver(),
@@ -418,12 +417,15 @@ public class StatusBarIconController extends StatusBarIconList implements Tunabl
                   animateHide(mWeatherLeft,animate);
                }
         }
+        if (Settings.System.getInt(mContext.getContentResolver(),
+                Settings.System.SHOW_BATTERYBAR_AMBIENT, 0) == 1) {
+        animateHide(mBatteryBarController, animate);
+        }
     }
 
     public void showSystemIconArea(boolean animate) {
         animateShow(mSystemIconArea, animate);
         animateShow(mCenterClockLayout, animate);
-        animateShow(mBatteryBarController, animate);
         if ((Settings.System.getIntForUser(mContext.getContentResolver(),
                 Settings.System.STATUS_BAR_SHOW_CARRIER,  0,
                 UserHandle.USER_CURRENT) == 2) ||
@@ -463,6 +465,10 @@ public class StatusBarIconController extends StatusBarIconList implements Tunabl
                } else {
                   animateShow(mWeatherLeft,animate);
                }
+        }
+        if (Settings.System.getInt(mContext.getContentResolver(),
+                Settings.System.SHOW_BATTERYBAR_AMBIENT, 0) == 1) {
+        animateShow(mBatteryBarController, animate);
         }
     }
 

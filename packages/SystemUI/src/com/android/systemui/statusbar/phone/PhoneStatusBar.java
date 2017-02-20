@@ -661,6 +661,9 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
                   Settings.System.CUSTOM_LOGO_POSITION),
                   false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.System.getUriFor(
+                  Settings.System.SHOW_BATTERYBAR_AMBIENT),
+                  false, this);
+            resolver.registerContentObserver(Settings.System.getUriFor(
                   Settings.System.NAVBAR_TINT_SWITCH),
                   false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.System.getUriFor(
@@ -847,13 +850,16 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
            } else if (uri.equals(Settings.System.getUriFor(
                     Settings.System.EMPTY_SHADE_VIEW_SHOW_CARRIER_NAME))) {
                 UpdateEmptyShadeShowCarrierName();
-            } else if (uri.equals(Settings.System.getUriFor(
+           } else if (uri.equals(Settings.System.getUriFor(
                     Settings.System.EMPTY_SHADE_VIEW_SHOW_WIFI_NAME))) {
                 UpdateEmptyShadeShowWifiName();
-            } else if (uri.equals(Settings.System.getUriFor(
+           } else if (uri.equals(Settings.System.getUriFor(
                     Settings.System.EMPTY_SHADE_VIEW_TEXT_COLOR))) {
                 UpdateEmptyShadeTextColor();
-            } else if (uri.equals(Settings.System.getUriFor(
+           } else if (uri.equals(Settings.System.getUriFor(
+                    Settings.System.SHOW_BATTERYBAR_AMBIENT))) {
+                    UpdateSomeViews();
+           } else if (uri.equals(Settings.System.getUriFor(
                     Settings.System.CLEAR_RECENTS_STYLE))
                     || uri.equals(Settings.System.getUriFor(
                     Settings.System.CLEAR_RECENTS_STYLE_ENABLE))) {
