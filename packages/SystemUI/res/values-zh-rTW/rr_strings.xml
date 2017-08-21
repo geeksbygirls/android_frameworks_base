@@ -230,8 +230,6 @@
   <string name="no_navigation_warning_title">停用所有導覽模式</string>
   <string name="no_navigation_warning_text">輕按以啟用</string>
   <!-- Pie controls -->
-  <string name="pie_date_format">yyyy MMMM dd, EEEE</string>
-  <string name="pie_hour_format_12">小時:分鐘</string>
   <string name="pie_state_name">扇形控制項</string>
   <string name="pie_state_summary">在全螢幕模式中使用扇形控制項</string>
   <string name="pie_battery_level">"電池等級 "</string>

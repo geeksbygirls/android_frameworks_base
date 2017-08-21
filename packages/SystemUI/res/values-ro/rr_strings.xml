@@ -230,7 +230,6 @@
   <string name="no_navigation_warning_title">Toate metodele de navigare dezactivate</string>
   <string name="no_navigation_warning_text">Atingeți pentru a activa</string>
   <!-- Pie controls -->
-  <string name="pie_date_format">EEEE, dd MMMM yyyy</string>
   <string name="pie_state_name">Control Evantai</string>
   <string name="pie_state_summary">Utilizaţi controale evantai în modul imersiv</string>
   <string name="pie_battery_level">"NIVELUL BATERIEI "</string>

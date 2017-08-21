@@ -230,7 +230,6 @@
   <string name="no_navigation_warning_title">Minden navigációs módszer letiltva</string>
   <string name="no_navigation_warning_text">Engedélyezéshez érintse meg</string>
   <!-- Pie controls -->
-  <string name="pie_date_format">EEEE, yyyy MMMM dd</string>
   <string name="pie_state_name">Pie vezérlő</string>
   <string name="pie_state_summary">Pie vezérlő használata teljes képernyős üzemmódban</string>
   <string name="pie_battery_level">"AKKUMULÁTOR SZINTJE "</string>

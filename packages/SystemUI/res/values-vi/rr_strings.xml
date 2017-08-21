@@ -230,10 +230,6 @@
   <string name="no_navigation_warning_title">Tất cả các phương pháp chuyển hướng bị vô hiệu</string>
   <string name="no_navigation_warning_text">Nhấn để bật</string>
   <!-- Pie controls -->
-  <string name="pie_date_format">EEEE, dd MMMM yyyy</string>
-  <string name="pie_hour_format_12">giờ:phút</string>
-  <string name="pie_hour_format_24">Giờ:phút</string>
-  <string name="pie_am_pm">am</string>
   <string name="pie_state_name">Điều hướng Pie</string>
   <string name="pie_state_summary">Sử dụng điều khiển pie khi ở chế độ nhập vai</string>
   <string name="pie_battery_level">"MỨC PIN "</string>

@@ -227,7 +227,6 @@
   <string name="no_navigation_warning_title">Tots els mètodes de navegació deshabilitats</string>
   <string name="no_navigation_warning_text">Premer per habilitar</string>
   <!-- Pie controls -->
-  <string name="pie_date_format">EEEE, dd MMMM aaaa</string>
   <string name="pie_battery_level">"NIVELL DE BATERIA "</string>
   <string name="quick_settings_pie">Pie</string>
   <string name="accessibility_data_sim">Sim de dades actual</string>

@@ -231,7 +231,6 @@
   <string name="no_navigation_warning_title">無効になっているすべてのナビゲーション メソッド</string>
   <string name="no_navigation_warning_text">タップして有効にする</string>
   <!-- Pie controls -->
-  <string name="pie_date_format">EEEE, dd MMMM yyyy</string>
   <string name="pie_state_name">Pie コントロール</string>
   <string name="pie_state_summary">没入型モードでPieコントロールを使用する</string>
   <string name="pie_battery_level">"バッテリーレベル "</string>

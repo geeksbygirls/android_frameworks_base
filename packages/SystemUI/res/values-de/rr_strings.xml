@@ -230,10 +230,6 @@
   <string name="no_navigation_warning_title">Alle Navigationsmethoden deaktiviert</string>
   <string name="no_navigation_warning_text">Zum Aktivieren tippen</string>
   <!-- Pie controls -->
-  <string name="pie_date_format">EEEE, dd MMMM yyyy</string>
-  <string name="pie_hour_format_12">hh:mm</string>
-  <string name="pie_hour_format_24">HH:mm</string>
-  <string name="pie_am_pm">AM/PM</string>
   <string name="pie_state_name">Pie-Steuerung</string>
   <string name="pie_state_summary">Pie-Steuerungen während des Immersive-Modus verwenden</string>
   <string name="pie_battery_level">"AKKUSTAND "</string>
