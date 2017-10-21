@@ -234,7 +234,7 @@ public class MobileSignalController extends SignalController<
 		mContext.getContentResolver(), Settings.System.SHOW_FOURG,
 		0, UserHandle.USER_CURRENT) == 1;
 
-       MobileIconGroup hGroup;
+        MobileIconGroup hGroup;
 		if (mShow3G){
 		hGroup = TelephonyIcons.THREE_G;
 		} else {
@@ -243,7 +243,7 @@ public class MobileSignalController extends SignalController<
         mNetworkToIconLookup.put(TelephonyManager.NETWORK_TYPE_HSDPA, hGroup);
         mNetworkToIconLookup.put(TelephonyManager.NETWORK_TYPE_HSUPA, hGroup);
         mNetworkToIconLookup.put(TelephonyManager.NETWORK_TYPE_HSPA, hGroup);
-        if (mConfig.hspaDataDistinguishable) {
+        if (mConfig.hspaDataDistinguishable && mConfig.hspapDataDistinguishable) {
 	    if (mShow3G){
 		hGroup = TelephonyIcons.THREE_G;
 	    } else {    
