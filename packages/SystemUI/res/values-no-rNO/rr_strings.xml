@@ -60,38 +60,19 @@
   <string name="quick_settings_sound_ring">Ring</string>
   <string name="quick_settings_sound_vibrate">Vibrere</string>
   <string name="quick_settings_sound_dnd">Ikke forstyrr</string>
-  <!-- Volume QS Tile -->
-  <string name="accessibility_quick_settings_volume_panel">Volum</string>
-  <string name="quick_settings_volume_panel_label">Volum</string>
   <!-- Quick Settings tiles -->
   <string name="quick_settings_screenshot_label">Skjermdump</string>
   <string name="quick_settings_region_screenshot_label">Delvis skjermdump</string>
-  <string name="quick_settings_adb_network">ADB nettverk</string>
-  <string name="quick_settings_network_adb_enabled_label">Aktivert</string>
-  <string name="quick_settings_network_adb_disabled_label">Deaktivert</string>
-  <string name="quick_settings_sync_label">Synkroniser</string>
-  <string name="accessibility_quick_settings_sync_off">Synkronisering av</string>
-  <string name="accessibility_quick_settings_sync_on">Synkronisering på</string>
-  <string name="accessibility_quick_settings_sync_changed_off">Synkronisering avslått</string>
-  <string name="accessibility_quick_settings_sync_changed_on">Synkronisering påslått</string>
   <string name="quick_settings_expanded_desktop_label">Utvidet skrivebord</string>
   <string name="quick_settings_expanded_desktop">Utvidet</string>
   <string name="quick_settings_expanded_desktop_off">Normal</string>
   <string name="quick_settings_reboot_label">Omstart</string>
   <string name="quick_settings_reboot_recovery_label">Gjenoppretting</string>
-  <string name="accessibility_quick_settings_usb_tether_off">Feil ved USB-tilknytning</string>
-  <string name="accessibility_quick_settings_usb_tether_on">USB-tilknytning</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_off">USB tethering deaktivert</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_on">USB tethering aktivert</string>
-  <string name="quick_settings_usb_tether_label">USB-tilknytning</string>
   <string name="quick_settings_music_label">Musikk</string>
   <string name="quick_settings_music_play">Spill</string>
   <string name="quick_settings_music_pause">Pause</string>
   <string name="quick_settings_ime_tile_label">Inndatametode</string>
   <string name="rr_qs_tile">Konfigurasjon</string>
-  <string name="quick_settings_caffeine_label">Koffein</string>
-  <string name="accessibility_quick_settings_caffeine_off">Koffein av</string>
-  <string name="accessibility_quick_settings_caffeine_on">Koffein på</string>
   <string name="qs_app_picker_title">App plukker</string>
   <string name="quick_settings_lte_label">LTE</string>
   <string name="lte_on">LTE PÅ </string>
@@ -128,7 +109,6 @@
   <!-- Announcement made when the battery mode tile changes to performance (not shown on the screen). [CHAR LIMIT=NONE] -->
   <!-- Announcement made when the battery mode tile changes to efficiency (not shown on the screen). [CHAR LIMIT=NONE] -->
   <!-- Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] -->
-  <!-- Compass QS Tile -->
   <!-- HW Keys Tile -->
   <!-- Kill app toast -->
   <!-- Heads up snooze toast -->

@@ -60,38 +60,19 @@
   <string name="quick_settings_sound_ring">Chuông</string>
   <string name="quick_settings_sound_vibrate">Rung</string>
   <string name="quick_settings_sound_dnd">Không làm phiền</string>
-  <!-- Volume QS Tile -->
-  <string name="accessibility_quick_settings_volume_panel">Âm lượng</string>
-  <string name="quick_settings_volume_panel_label">Âm lượng</string>
   <!-- Quick Settings tiles -->
   <string name="quick_settings_screenshot_label">Chụp ảnh màn hình</string>
   <string name="quick_settings_region_screenshot_label">Ảnh chụp màn hình một phần</string>
-  <string name="quick_settings_adb_network">Mạng ADB</string>
-  <string name="quick_settings_network_adb_enabled_label">Đã bật</string>
-  <string name="quick_settings_network_adb_disabled_label">Đã tắt</string>
-  <string name="quick_settings_sync_label">Đồng bộ hóa</string>
-  <string name="accessibility_quick_settings_sync_off">Tắt đồng bộ</string>
-  <string name="accessibility_quick_settings_sync_on">Bật đồng bộ</string>
-  <string name="accessibility_quick_settings_sync_changed_off">Đồng bộ đã tắt</string>
-  <string name="accessibility_quick_settings_sync_changed_on">Đồng bộ đã bật</string>
   <string name="quick_settings_expanded_desktop_label">Mở rộng màn hình</string>
   <string name="quick_settings_expanded_desktop">Đã mở rộng</string>
   <string name="quick_settings_expanded_desktop_off">Bình Thường</string>
   <string name="quick_settings_reboot_label">Khởi động lại</string>
   <string name="quick_settings_reboot_recovery_label">Phục hồi</string>
-  <string name="accessibility_quick_settings_usb_tether_off">Tắt chia sẻ kết nối USB</string>
-  <string name="accessibility_quick_settings_usb_tether_on">Mở chia sẻ kết nối USB</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_off">Chế độ chia sẻ kết nối USB đã tắt</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_on">Chế độ chia sẻ kết nối USB đã bật</string>
-  <string name="quick_settings_usb_tether_label">Chia sẻ kết nối qua USB</string>
   <string name="quick_settings_music_label">Nhạc</string>
   <string name="quick_settings_music_play">Phát</string>
   <string name="quick_settings_music_pause">Tạm dừng</string>
   <string name="quick_settings_ime_tile_label">Phương thức nhập</string>
   <string name="rr_qs_tile">Cấu hình</string>
-  <string name="quick_settings_caffeine_label">Caffeine</string>
-  <string name="accessibility_quick_settings_caffeine_off">Caffeine tắt</string>
-  <string name="accessibility_quick_settings_caffeine_on">Caffeine bật</string>
   <string name="qs_app_picker_title">Trình chọn ứng dụng</string>
   <string name="quick_settings_lte_label">LTE</string>
   <string name="lte_on">BẬT LTE </string>
@@ -129,11 +110,6 @@
   <string name="accessibility_quick_settings_ambient_display_on">Bật hiển thị tương tác</string>
   <string name="accessibility_quick_settings_ambient_display_changed_off">Hiển thị tương tác đã tắt</string>
   <string name="accessibility_quick_settings_ambient_display_changed_on">Hiển thịtương tác đã bật</string>
-  <string name="quick_settings_heads_up_label">Thông báo nổi</string>
-  <string name="accessibility_quick_settings_heads_up_off">Tắt thông báo nổi</string>
-  <string name="accessibility_quick_settings_heads_up_on">Bật thông báo nổi</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">Thông báo nổi đã tắt</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">Thông báo nổi đã bật</string>
   <!-- Location Tile -->
   <string name="accessibility_quick_settings_location_battery_saving">Báo cáo vị trí: chế độ tiết kiệm pin.</string>
   <string name="accessibility_quick_settings_location_gps_only">Báo cáo vị trí: chế độ chỉ các cảm biến.</string>
@@ -177,22 +153,6 @@
   <!-- Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] -->
   <string name="accessibility_quick_settings_perf_profile_changed_bias_perf">Chế độ pin đã thay đổi thành chế độ nhanh.</string>
   <string name="quick_settings_performance_profile_detail_title">Chế độ pin</string>
-  <!-- Compass QS Tile -->
-  <string name="quick_settings_compass_label">La bàn</string>
-  <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
-  <string name="quick_settings_compass_init">Đang khởi tạo\u2026</string>
-  <string name="accessibility_quick_settings_compass_off">Tắt la bàn.</string>
-  <string name="accessibility_quick_settings_compass_on">Mở la bàn.</string>
-  <string name="accessibility_quick_settings_compass_changed_off">La bàn đã tắt.</string>
-  <string name="accessibility_quick_settings_compass_changed_on">La bàn đã bật.</string>
-  <string name="quick_settings_compass_N">B</string>
-  <string name="quick_settings_compass_NE">ĐB</string>
-  <string name="quick_settings_compass_E">Đ</string>
-  <string name="quick_settings_compass_SE">ĐN</string>
-  <string name="quick_settings_compass_S">N</string>
-  <string name="quick_settings_compass_SW">TN</string>
-  <string name="quick_settings_compass_W">T</string>
-  <string name="quick_settings_compass_NW">TB</string>
   <!-- HW Keys Tile -->
   <string name="accessibility_quick_settings_hwkeys_on">Phím cứng bật</string>
   <string name="accessibility_quick_settings_hwkeys_off">Phím cứng tắt</string>

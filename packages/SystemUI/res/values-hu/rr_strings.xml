@@ -60,38 +60,19 @@
   <string name="quick_settings_sound_ring">Csengés</string>
   <string name="quick_settings_sound_vibrate">Rezgés</string>
   <string name="quick_settings_sound_dnd">Ne zavarj</string>
-  <!-- Volume QS Tile -->
-  <string name="accessibility_quick_settings_volume_panel">Hangerő</string>
-  <string name="quick_settings_volume_panel_label">Hangerő</string>
   <!-- Quick Settings tiles -->
   <string name="quick_settings_screenshot_label">Képernyőmentés</string>
   <string name="quick_settings_region_screenshot_label">Részleges képernyőmentés</string>
-  <string name="quick_settings_adb_network">ADB hálózat</string>
-  <string name="quick_settings_network_adb_enabled_label">Engedélyezve</string>
-  <string name="quick_settings_network_adb_disabled_label">Letiltva</string>
-  <string name="quick_settings_sync_label">Szinkronizáció</string>
-  <string name="accessibility_quick_settings_sync_off">Szinkronizálás ki</string>
-  <string name="accessibility_quick_settings_sync_on">Szinkronizálás be</string>
-  <string name="accessibility_quick_settings_sync_changed_off">Szinkronizálás kikapcsolva</string>
-  <string name="accessibility_quick_settings_sync_changed_on">Szinkronizálás bekapcsolva</string>
   <string name="quick_settings_expanded_desktop_label">Kiterjesztett képernyő</string>
   <string name="quick_settings_expanded_desktop">Kiterjesztett</string>
   <string name="quick_settings_expanded_desktop_off">Normál</string>
   <string name="quick_settings_reboot_label">Újraindítás</string>
   <string name="quick_settings_reboot_recovery_label">Recovery</string>
-  <string name="accessibility_quick_settings_usb_tether_off">USB internetmegosztás ki</string>
-  <string name="accessibility_quick_settings_usb_tether_on">USB internetmegosztás be</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_off">USB internetmegosztás kikapcsolva</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_on">USB internetmegosztás bekapcsolva</string>
-  <string name="quick_settings_usb_tether_label">USB internetmegosztás</string>
   <string name="quick_settings_music_label">Zene</string>
   <string name="quick_settings_music_play">Letjátszás</string>
   <string name="quick_settings_music_pause">Szünet</string>
   <string name="quick_settings_ime_tile_label">Beviteli mód</string>
   <string name="rr_qs_tile">Testreszabás</string>
-  <string name="quick_settings_caffeine_label">Caffeine</string>
-  <string name="accessibility_quick_settings_caffeine_off">Caffeine ki</string>
-  <string name="accessibility_quick_settings_caffeine_on">Caffeine be</string>
   <string name="qs_app_picker_title">Alkalmazás választó</string>
   <string name="quick_settings_lte_label">LTE</string>
   <string name="lte_on">LTE BE </string>
@@ -129,11 +110,6 @@
   <string name="accessibility_quick_settings_ambient_display_on">Környezeti kijelző be</string>
   <string name="accessibility_quick_settings_ambient_display_changed_off">Környezeti kijelző kikapcsolva</string>
   <string name="accessibility_quick_settings_ambient_display_changed_on">Környezeti kijelző bekapcsolva</string>
-  <string name="quick_settings_heads_up_label">Lebegő értesítések</string>
-  <string name="accessibility_quick_settings_heads_up_off">Lebegő értesítések ki</string>
-  <string name="accessibility_quick_settings_heads_up_on">Lebegő értesítések be</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">Lebegő értesítések kikapcsolva</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">Lebegő értesítések bekapcsolva</string>
   <!-- Location Tile -->
   <string name="accessibility_quick_settings_location_battery_saving">Helymeghatározás: energiatakarékos mód.</string>
   <string name="accessibility_quick_settings_location_gps_only">Helymeghatározás: csak GPS.</string>
@@ -177,22 +153,6 @@
   <!-- Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] -->
   <string name="accessibility_quick_settings_perf_profile_changed_bias_perf">Akkumulátor mód gyorsra változtatva.</string>
   <string name="quick_settings_performance_profile_detail_title">Akkumulátor mód</string>
-  <!-- Compass QS Tile -->
-  <string name="quick_settings_compass_label">Iránytű</string>
-  <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
-  <string name="quick_settings_compass_init">Inicializálás\u2026</string>
-  <string name="accessibility_quick_settings_compass_off">Iránytű ki.</string>
-  <string name="accessibility_quick_settings_compass_on">Iránytű be.</string>
-  <string name="accessibility_quick_settings_compass_changed_off">Iránytű kikapcsolva.</string>
-  <string name="accessibility_quick_settings_compass_changed_on">Iránytű bekapcsolva.</string>
-  <string name="quick_settings_compass_N">É</string>
-  <string name="quick_settings_compass_NE">ÉK</string>
-  <string name="quick_settings_compass_E">K</string>
-  <string name="quick_settings_compass_SE">DK</string>
-  <string name="quick_settings_compass_S">D</string>
-  <string name="quick_settings_compass_SW">DNy</string>
-  <string name="quick_settings_compass_W">Ny</string>
-  <string name="quick_settings_compass_NW">ÉNy</string>
   <!-- HW Keys Tile -->
   <string name="accessibility_quick_settings_hwkeys_on">Hardveres gombok bekapcsolása</string>
   <string name="accessibility_quick_settings_hwkeys_off">Hardveres gombok kikapcsolása</string>

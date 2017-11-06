@@ -60,38 +60,19 @@
   <string name="quick_settings_sound_ring">Klingeln</string>
   <string name="quick_settings_sound_vibrate">Vibrieren</string>
   <string name="quick_settings_sound_dnd">Nicht stören</string>
-  <!-- Volume QS Tile -->
-  <string name="accessibility_quick_settings_volume_panel">Lautstärke</string>
-  <string name="quick_settings_volume_panel_label">Lautstärke</string>
   <!-- Quick Settings tiles -->
   <string name="quick_settings_screenshot_label">Screenshot</string>
   <string name="quick_settings_region_screenshot_label">Partieller Screenshot</string>
-  <string name="quick_settings_adb_network">ADB-Netzwerk</string>
-  <string name="quick_settings_network_adb_enabled_label">Aktiviert</string>
-  <string name="quick_settings_network_adb_disabled_label">Deaktiviert</string>
-  <string name="quick_settings_sync_label">Synchronisieren</string>
-  <string name="accessibility_quick_settings_sync_off">Synchronisation aus</string>
-  <string name="accessibility_quick_settings_sync_on">Synchronisation an</string>
-  <string name="accessibility_quick_settings_sync_changed_off">Synchronisation ausgeschaltet</string>
-  <string name="accessibility_quick_settings_sync_changed_on">Synchronisation eingeschaltet</string>
   <string name="quick_settings_expanded_desktop_label">Erweiterter Desktop</string>
   <string name="quick_settings_expanded_desktop">Erweitert</string>
   <string name="quick_settings_expanded_desktop_off">Normal</string>
   <string name="quick_settings_reboot_label">Neustart</string>
   <string name="quick_settings_reboot_recovery_label">Recovery</string>
-  <string name="accessibility_quick_settings_usb_tether_off">USB-Tethering aus</string>
-  <string name="accessibility_quick_settings_usb_tether_on">USB-Tethering an</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_off">USB Tethering ausgeschaltet</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_on">USB Tethering angeschaltet</string>
-  <string name="quick_settings_usb_tether_label">USB Tethering</string>
   <string name="quick_settings_music_label">Musik</string>
   <string name="quick_settings_music_play">Wiedergabe</string>
   <string name="quick_settings_music_pause">Pause</string>
   <string name="quick_settings_ime_tile_label">Eingabemethode</string>
   <string name="rr_qs_tile">Einstellungen</string>
-  <string name="quick_settings_caffeine_label">Koffein</string>
-  <string name="accessibility_quick_settings_caffeine_off">Koffein aus</string>
-  <string name="accessibility_quick_settings_caffeine_on">Koffein an</string>
   <string name="qs_app_picker_title">App-Picker</string>
   <string name="quick_settings_lte_label">LTE</string>
   <string name="lte_on">LTE an </string>
@@ -129,11 +110,6 @@
   <string name="accessibility_quick_settings_ambient_display_on">Inaktivitätsbildschirm an</string>
   <string name="accessibility_quick_settings_ambient_display_changed_off">Inaktivitätsbildschirm ausgeschaltet</string>
   <string name="accessibility_quick_settings_ambient_display_changed_on">Inaktivitätsbildschirm eingeschaltet</string>
-  <string name="quick_settings_heads_up_label">Heads-Up</string>
-  <string name="accessibility_quick_settings_heads_up_off">Heads Up-Benachrichtigungen aus</string>
-  <string name="accessibility_quick_settings_heads_up_on">Heads Up-Benachrichtigungen an</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">Heads Up-Benachrichtigungen ausgeschaltet</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">Heads Up-Benachrichtigungen eingeschaltet</string>
   <!-- Location Tile -->
   <string name="accessibility_quick_settings_location_battery_saving">Standortdienste: Energiesparmodus.</string>
   <string name="accessibility_quick_settings_location_gps_only">Standortdienste: Nur Gerät.</string>
@@ -177,22 +153,6 @@
   <!-- Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] -->
   <string name="accessibility_quick_settings_perf_profile_changed_bias_perf">Batterie Modus zu schnellem Modus gewechselt.</string>
   <string name="quick_settings_performance_profile_detail_title">Batterie Modus</string>
-  <!-- Compass QS Tile -->
-  <string name="quick_settings_compass_label">Kompass</string>
-  <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
-  <string name="quick_settings_compass_init">Initialisierung\u2026</string>
-  <string name="accessibility_quick_settings_compass_off">Kompass aus</string>
-  <string name="accessibility_quick_settings_compass_on">Kompass an</string>
-  <string name="accessibility_quick_settings_compass_changed_off">Kompass ausgeschaltet.</string>
-  <string name="accessibility_quick_settings_compass_changed_on">Kompass eingeschaltet.</string>
-  <string name="quick_settings_compass_N">N</string>
-  <string name="quick_settings_compass_NE">NO</string>
-  <string name="quick_settings_compass_E">O</string>
-  <string name="quick_settings_compass_SE">SO</string>
-  <string name="quick_settings_compass_S">S</string>
-  <string name="quick_settings_compass_SW">SW</string>
-  <string name="quick_settings_compass_W">W</string>
-  <string name="quick_settings_compass_NW">NW</string>
   <!-- HW Keys Tile -->
   <string name="accessibility_quick_settings_hwkeys_on">HW Tasten an</string>
   <string name="accessibility_quick_settings_hwkeys_off">HW Tasten aus</string>

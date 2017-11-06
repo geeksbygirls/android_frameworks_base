@@ -60,38 +60,19 @@
   <string name="quick_settings_sound_ring">Звоно</string>
   <string name="quick_settings_sound_vibrate">Вибрирање</string>
   <string name="quick_settings_sound_dnd">Не узнемиравај</string>
-  <!-- Volume QS Tile -->
-  <string name="accessibility_quick_settings_volume_panel">Јачина звука</string>
-  <string name="quick_settings_volume_panel_label">Јачина звука</string>
   <!-- Quick Settings tiles -->
   <string name="quick_settings_screenshot_label">Снимак екрана</string>
   <string name="quick_settings_region_screenshot_label">Делимичан снимак екрана</string>
-  <string name="quick_settings_adb_network">ADB мрежа</string>
-  <string name="quick_settings_network_adb_enabled_label">Омогућено</string>
-  <string name="quick_settings_network_adb_disabled_label">Онемогућено</string>
-  <string name="quick_settings_sync_label">Синхронизација</string>
-  <string name="accessibility_quick_settings_sync_off">Синхронизација искључена</string>
-  <string name="accessibility_quick_settings_sync_on">Синхронизација укључена</string>
-  <string name="accessibility_quick_settings_sync_changed_off">Синхронизација је искључена</string>
-  <string name="accessibility_quick_settings_sync_changed_on">Синхронизација је укључена</string>
   <string name="quick_settings_expanded_desktop_label">Проширен екран</string>
   <string name="quick_settings_expanded_desktop">Проширен</string>
   <string name="quick_settings_expanded_desktop_off">Нормална</string>
   <string name="quick_settings_reboot_label">Поново покрени</string>
   <string name="quick_settings_reboot_recovery_label">Опоравак</string>
-  <string name="accessibility_quick_settings_usb_tether_off">УСБ тетеринг искључен</string>
-  <string name="accessibility_quick_settings_usb_tether_on">УСБ тетеринг укључен</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_off">УСБ тетеринг искључен</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_on">УСБ тетеринг укључен</string>
-  <string name="quick_settings_usb_tether_label">УСБ дељење везе</string>
   <string name="quick_settings_music_label">Музика</string>
   <string name="quick_settings_music_play">Пусти</string>
   <string name="quick_settings_music_pause">Паузирај</string>
   <string name="quick_settings_ime_tile_label">Метод уноса</string>
   <string name="rr_qs_tile">Подешавања</string>
-  <string name="quick_settings_caffeine_label">Кофеин</string>
-  <string name="accessibility_quick_settings_caffeine_off">Кофеин иск</string>
-  <string name="accessibility_quick_settings_caffeine_on">Кофеин укљ</string>
   <string name="qs_app_picker_title">Бирач апликација</string>
   <string name="quick_settings_lte_label">ЛТЕ</string>
   <string name="lte_on">ЛТЕ укљ</string>
@@ -129,11 +110,6 @@
   <string name="accessibility_quick_settings_ambient_display_on">Амбијентални приказ укљ</string>
   <string name="accessibility_quick_settings_ambient_display_changed_off">Амбијентални приказ искључен</string>
   <string name="accessibility_quick_settings_ambient_display_changed_on">Амбијентални приказ укључен</string>
-  <string name="quick_settings_heads_up_label">Искачућа обавештења</string>
-  <string name="accessibility_quick_settings_heads_up_off">Искачућа обавештења иск</string>
-  <string name="accessibility_quick_settings_heads_up_on">Искачућа обавештења укљ</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">Искачућа обавештења искључена</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">Искачућа обавештења укључена</string>
   <!-- Location Tile -->
   <string name="accessibility_quick_settings_location_battery_saving">Извештавање о локацији: режим уштеде батерије.</string>
   <string name="accessibility_quick_settings_location_gps_only">Извештавање о локацији: само сензори.</string>
@@ -177,22 +153,6 @@
   <!-- Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] -->
   <string name="accessibility_quick_settings_perf_profile_changed_bias_perf">Режим рада батерије промењен у брзи режим.</string>
   <string name="quick_settings_performance_profile_detail_title">Режим батерије</string>
-  <!-- Compass QS Tile -->
-  <string name="quick_settings_compass_label">Компас</string>
-  <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
-  <string name="quick_settings_compass_init">Покрећем\u2026</string>
-  <string name="accessibility_quick_settings_compass_off">Компас иск.</string>
-  <string name="accessibility_quick_settings_compass_on">Компас укљ.</string>
-  <string name="accessibility_quick_settings_compass_changed_off">Компас искључен.</string>
-  <string name="accessibility_quick_settings_compass_changed_on">Компас укључен.</string>
-  <string name="quick_settings_compass_N">С</string>
-  <string name="quick_settings_compass_NE">СИ</string>
-  <string name="quick_settings_compass_E">И</string>
-  <string name="quick_settings_compass_SE">ЈИ</string>
-  <string name="quick_settings_compass_S">Ј</string>
-  <string name="quick_settings_compass_SW">ЈЗ</string>
-  <string name="quick_settings_compass_W">З</string>
-  <string name="quick_settings_compass_NW">СЗ</string>
   <!-- HW Keys Tile -->
   <string name="accessibility_quick_settings_hwkeys_on">Физичка дугмад укључена</string>
   <string name="accessibility_quick_settings_hwkeys_off">Физичка дугмад искључена</string>

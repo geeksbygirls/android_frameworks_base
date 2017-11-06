@@ -60,38 +60,19 @@
   <string name="quick_settings_sound_ring">着信</string>
   <string name="quick_settings_sound_vibrate">マナーモード</string>
   <string name="quick_settings_sound_dnd">通知不要アプリ</string>
-  <!-- Volume QS Tile -->
-  <string name="accessibility_quick_settings_volume_panel">音量</string>
-  <string name="quick_settings_volume_panel_label">音量</string>
   <!-- Quick Settings tiles -->
   <string name="quick_settings_screenshot_label">スクリーンショット</string>
   <string name="quick_settings_region_screenshot_label">範囲選択してスクリーンショット</string>
-  <string name="quick_settings_adb_network">ADB network</string>
-  <string name="quick_settings_network_adb_enabled_label">有効</string>
-  <string name="quick_settings_network_adb_disabled_label">無効</string>
-  <string name="quick_settings_sync_label">同期</string>
-  <string name="accessibility_quick_settings_sync_off">同期OFF</string>
-  <string name="accessibility_quick_settings_sync_on">同期ON</string>
-  <string name="accessibility_quick_settings_sync_changed_off">同期をオフにします</string>
-  <string name="accessibility_quick_settings_sync_changed_on">同期をオンにします</string>
   <string name="quick_settings_expanded_desktop_label">拡張デスクトップ</string>
   <string name="quick_settings_expanded_desktop">展開中</string>
   <string name="quick_settings_expanded_desktop_off">標準</string>
   <string name="quick_settings_reboot_label">再起動</string>
   <string name="quick_settings_reboot_recovery_label">リカバリ</string>
-  <string name="accessibility_quick_settings_usb_tether_off">USBテザリングOFF</string>
-  <string name="accessibility_quick_settings_usb_tether_on">USBテザリングON</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_off">USBテザリングをOFFにしました</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_on">USBテザリングをONにしました</string>
-  <string name="quick_settings_usb_tether_label">USBテザリング</string>
   <string name="quick_settings_music_label">ミュージック</string>
   <string name="quick_settings_music_play">再生</string>
   <string name="quick_settings_music_pause">一時停止</string>
   <string name="quick_settings_ime_tile_label">入力方式</string>
   <string name="rr_qs_tile">高度な設定</string>
-  <string name="quick_settings_caffeine_label">カフェイン</string>
-  <string name="accessibility_quick_settings_caffeine_off">カフェインをOFF</string>
-  <string name="accessibility_quick_settings_caffeine_on">カフェインをON</string>
   <string name="qs_app_picker_title">App Picker</string>
   <string name="quick_settings_lte_label">LTE</string>
   <string name="lte_on">LTE オン </string>
@@ -129,11 +110,6 @@
   <string name="accessibility_quick_settings_ambient_display_on">常に画面表示ディスプレイはオン</string>
   <string name="accessibility_quick_settings_ambient_display_changed_off">常に画面表示ディスプレイをオフにしました</string>
   <string name="accessibility_quick_settings_ambient_display_changed_on">常に画面表示ディスプレイをオンにしました</string>
-  <string name="quick_settings_heads_up_label">ヘッドアップ</string>
-  <string name="accessibility_quick_settings_heads_up_off">ヘッドアップ オフ</string>
-  <string name="accessibility_quick_settings_heads_up_on">ヘッドアップ オン</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">ヘッドアップ通知は無効になりました</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">ヘッドアップ通知が有効になりました</string>
   <!-- Location Tile -->
   <string name="accessibility_quick_settings_location_battery_saving">位置情報レポート: バッテリー節約モードです</string>
   <string name="accessibility_quick_settings_location_gps_only">位置情報レポート: センサーのみ</string>
@@ -177,22 +153,6 @@
   <!-- Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] -->
   <string name="accessibility_quick_settings_perf_profile_changed_bias_perf">バッテリーモードはクイックモードに変更されました。</string>
   <string name="quick_settings_performance_profile_detail_title">バッテリーモード</string>
-  <!-- Compass QS Tile -->
-  <string name="quick_settings_compass_label">コンパス</string>
-  <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
-  <string name="quick_settings_compass_init">初期化中\u2026</string>
-  <string name="accessibility_quick_settings_compass_off">コンパス オフ</string>
-  <string name="accessibility_quick_settings_compass_on">コンパス オン</string>
-  <string name="accessibility_quick_settings_compass_changed_off">コンパスがオフになりました</string>
-  <string name="accessibility_quick_settings_compass_changed_on">コンパスがオンになりました</string>
-  <string name="quick_settings_compass_N">北</string>
-  <string name="quick_settings_compass_NE">北東</string>
-  <string name="quick_settings_compass_E">東</string>
-  <string name="quick_settings_compass_SE">南東</string>
-  <string name="quick_settings_compass_S">南</string>
-  <string name="quick_settings_compass_SW">南西</string>
-  <string name="quick_settings_compass_W">西</string>
-  <string name="quick_settings_compass_NW">北西</string>
   <!-- HW Keys Tile -->
   <string name="accessibility_quick_settings_hwkeys_on">HWキーON</string>
   <string name="accessibility_quick_settings_hwkeys_off">HWキーOFF</string>

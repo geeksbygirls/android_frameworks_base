@@ -60,38 +60,19 @@
   <string name="quick_settings_sound_ring">벨소리</string>
   <string name="quick_settings_sound_vibrate">진동</string>
   <string name="quick_settings_sound_dnd">방해 금지</string>
-  <!-- Volume QS Tile -->
-  <string name="accessibility_quick_settings_volume_panel">음량</string>
-  <string name="quick_settings_volume_panel_label">음량</string>
   <!-- Quick Settings tiles -->
   <string name="quick_settings_screenshot_label">스크린샷</string>
   <string name="quick_settings_region_screenshot_label">부분 스크린샷</string>
-  <string name="quick_settings_adb_network">ADB 네트워크</string>
-  <string name="quick_settings_network_adb_enabled_label">활성화됨</string>
-  <string name="quick_settings_network_adb_disabled_label">비활성화됨</string>
-  <string name="quick_settings_sync_label">동기화</string>
-  <string name="accessibility_quick_settings_sync_off">동기화 꺼짐</string>
-  <string name="accessibility_quick_settings_sync_on">동기화 켜짐</string>
-  <string name="accessibility_quick_settings_sync_changed_off">동기화 꺼짐</string>
-  <string name="accessibility_quick_settings_sync_changed_on">동기화 켜짐</string>
   <string name="quick_settings_expanded_desktop_label">확장 데스크탑</string>
   <string name="quick_settings_expanded_desktop">확장됨</string>
   <string name="quick_settings_expanded_desktop_off">일반 모드</string>
   <string name="quick_settings_reboot_label">다시 시작</string>
   <string name="quick_settings_reboot_recovery_label">복구 모드</string>
-  <string name="accessibility_quick_settings_usb_tether_off">USB 테더링 꺼짐</string>
-  <string name="accessibility_quick_settings_usb_tether_on">USB 테더링 켜짐</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_off">USB 테더링 꺼짐</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_on">USB 테더링 켜짐</string>
-  <string name="quick_settings_usb_tether_label">USB 테더링</string>
   <string name="quick_settings_music_label">음악</string>
   <string name="quick_settings_music_play">재생</string>
   <string name="quick_settings_music_pause">일시 정지</string>
   <string name="quick_settings_ime_tile_label">입력 방법</string>
   <string name="rr_qs_tile">환경설정</string>
-  <string name="quick_settings_caffeine_label">카페인</string>
-  <string name="accessibility_quick_settings_caffeine_off">카페인 꺼짐</string>
-  <string name="accessibility_quick_settings_caffeine_on">카페인 켜짐</string>
   <string name="qs_app_picker_title">앱 선택</string>
   <string name="quick_settings_lte_label">LTE</string>
   <string name="lte_on">LTE 켜짐</string>
@@ -129,11 +110,6 @@
   <string name="accessibility_quick_settings_ambient_display_on">절전 모드 자동 해제 켜짐</string>
   <string name="accessibility_quick_settings_ambient_display_changed_off">절전 모드 자동 해제 꺼짐</string>
   <string name="accessibility_quick_settings_ambient_display_changed_on">절전 모드 자동 해제 켜짐</string>
-  <string name="quick_settings_heads_up_label">헤드업 알림</string>
-  <string name="accessibility_quick_settings_heads_up_off">헤드 업 알림 꺼짐</string>
-  <string name="accessibility_quick_settings_heads_up_on">헤드 업 알림 켜짐</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">헤드 업 알림 꺼짐</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">헤드 업 알림 켜짐</string>
   <!-- Location Tile -->
   <string name="accessibility_quick_settings_location_battery_saving">위치 모드: 배터리 절약 모드</string>
   <string name="accessibility_quick_settings_location_gps_only">위치 모드: 기기 전용 모드</string>
@@ -177,22 +153,6 @@
   <!-- Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] -->
   <string name="accessibility_quick_settings_perf_profile_changed_bias_perf">배터리 모드가 속도 우선모드로 변경되었습니다.</string>
   <string name="quick_settings_performance_profile_detail_title">배터리 모드</string>
-  <!-- Compass QS Tile -->
-  <string name="quick_settings_compass_label">나침반</string>
-  <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0<xliff:g id="direction">%2$s</xliff:g></string>
-  <string name="quick_settings_compass_init">초기화중\u2026</string>
-  <string name="accessibility_quick_settings_compass_off">나침반 끄기</string>
-  <string name="accessibility_quick_settings_compass_on">나침반 켜기</string>
-  <string name="accessibility_quick_settings_compass_changed_off">나침반 꺼짐.</string>
-  <string name="accessibility_quick_settings_compass_changed_on">나침반 켜짐.</string>
-  <string name="quick_settings_compass_N">N</string>
-  <string name="quick_settings_compass_NE">NE</string>
-  <string name="quick_settings_compass_E">E</string>
-  <string name="quick_settings_compass_SE">SE</string>
-  <string name="quick_settings_compass_S">S</string>
-  <string name="quick_settings_compass_SW">SW</string>
-  <string name="quick_settings_compass_W">W</string>
-  <string name="quick_settings_compass_NW">NW</string>
   <!-- HW Keys Tile -->
   <string name="accessibility_quick_settings_hwkeys_on">하드웨어 키 사용</string>
   <string name="accessibility_quick_settings_hwkeys_off">하드웨어 키 사용 안함</string>

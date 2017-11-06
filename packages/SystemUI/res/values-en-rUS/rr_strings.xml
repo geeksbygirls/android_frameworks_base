@@ -60,38 +60,19 @@
   <string name="quick_settings_sound_ring">Ring</string>
   <string name="quick_settings_sound_vibrate">Vibrate</string>
   <string name="quick_settings_sound_dnd">Do Not Disturb</string>
-  <!-- Volume QS Tile -->
-  <string name="accessibility_quick_settings_volume_panel">Volume</string>
-  <string name="quick_settings_volume_panel_label">Volume</string>
   <!-- Quick Settings tiles -->
   <string name="quick_settings_screenshot_label">Screenshot</string>
   <string name="quick_settings_region_screenshot_label">Partial Screenshot</string>
-  <string name="quick_settings_adb_network">ADB Network</string>
-  <string name="quick_settings_network_adb_enabled_label">ADB Network Enabled</string>
-  <string name="quick_settings_network_adb_disabled_label">Disabled</string>
-  <string name="quick_settings_sync_label">Sync</string>
-  <string name="accessibility_quick_settings_sync_off">Sync Off</string>
-  <string name="accessibility_quick_settings_sync_on">Sync On</string>
-  <string name="accessibility_quick_settings_sync_changed_off">Sync turned OFF</string>
-  <string name="accessibility_quick_settings_sync_changed_on">Sync turned ON</string>
   <string name="quick_settings_expanded_desktop_label">Expanded Desktop</string>
   <string name="quick_settings_expanded_desktop">Expanded</string>
   <string name="quick_settings_expanded_desktop_off">Normal</string>
   <string name="quick_settings_reboot_label">Reboot</string>
   <string name="quick_settings_reboot_recovery_label">Recovery</string>
-  <string name="accessibility_quick_settings_usb_tether_off">USB Tethering OFF</string>
-  <string name="accessibility_quick_settings_usb_tether_on">USB Tethering ON</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_off">USB Tethering turned OFF</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_on">USB Tethering turned ON</string>
-  <string name="quick_settings_usb_tether_label">USB Tethering</string>
   <string name="quick_settings_music_label">Music</string>
   <string name="quick_settings_music_play">Play</string>
   <string name="quick_settings_music_pause">Pause</string>
   <string name="quick_settings_ime_tile_label">Input Method</string>
   <string name="rr_qs_tile">Configurations</string>
-  <string name="quick_settings_caffeine_label">Caffeine</string>
-  <string name="accessibility_quick_settings_caffeine_off">Caffeine off</string>
-  <string name="accessibility_quick_settings_caffeine_on">Caffeine on</string>
   <string name="qs_app_picker_title">App Picker</string>
   <string name="quick_settings_lte_label">LTE</string>
   <string name="lte_on">LTE ON </string>
@@ -130,11 +111,6 @@
   <string name="accessibility_quick_settings_ambient_display_on">Ambient Display on</string>
   <string name="accessibility_quick_settings_ambient_display_changed_off">Ambient Display turned off</string>
   <string name="accessibility_quick_settings_ambient_display_changed_on">Ambient Display turned on</string>
-  <string name="quick_settings_heads_up_label">Heads up</string>
-  <string name="accessibility_quick_settings_heads_up_off">Heads up off</string>
-  <string name="accessibility_quick_settings_heads_up_on">Heads up on</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">Heads up turned off</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">Heads up turned on</string>
   <!-- Location Tile -->
   <string name="accessibility_quick_settings_location_battery_saving">Location reporting: battery saving mode.</string>
   <string name="accessibility_quick_settings_location_gps_only">Location reporting: sensors only mode.</string>
@@ -178,22 +154,6 @@
   <!-- Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] -->
   <string name="accessibility_quick_settings_perf_profile_changed_bias_perf">Battery mode changed to quick mode.</string>
   <string name="quick_settings_performance_profile_detail_title">Battery mode</string>
-  <!-- Compass QS Tile -->
-  <string name="quick_settings_compass_label">Compass</string>
-  <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
-  <string name="quick_settings_compass_init">Initializing\u2026</string>
-  <string name="accessibility_quick_settings_compass_off">Compass off.</string>
-  <string name="accessibility_quick_settings_compass_on">Compass on.</string>
-  <string name="accessibility_quick_settings_compass_changed_off">Compass turned off.</string>
-  <string name="accessibility_quick_settings_compass_changed_on">Compass turned on.</string>
-  <string name="quick_settings_compass_N">N</string>
-  <string name="quick_settings_compass_NE">NE</string>
-  <string name="quick_settings_compass_E">E</string>
-  <string name="quick_settings_compass_SE">SE</string>
-  <string name="quick_settings_compass_S">S</string>
-  <string name="quick_settings_compass_SW">SW</string>
-  <string name="quick_settings_compass_W">W</string>
-  <string name="quick_settings_compass_NW">NW</string>
   <!-- HW Keys Tile -->
   <string name="accessibility_quick_settings_hwkeys_on">Hardware keys on</string>
   <string name="accessibility_quick_settings_hwkeys_off">Hardware keys off</string>

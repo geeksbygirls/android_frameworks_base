@@ -43,7 +43,6 @@
   <!-- Announcement made when the battery mode tile changes to performance (not shown on the screen). [CHAR LIMIT=NONE] -->
   <!-- Announcement made when the battery mode tile changes to efficiency (not shown on the screen). [CHAR LIMIT=NONE] -->
   <!-- Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] -->
-  <!-- Compass QS Tile -->
   <!-- HW Keys Tile -->
   <!-- Kill app toast -->
   <!-- Heads up snooze toast -->

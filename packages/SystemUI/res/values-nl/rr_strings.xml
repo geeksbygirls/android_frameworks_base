@@ -60,38 +60,19 @@
   <string name="quick_settings_sound_ring">Rinkelen</string>
   <string name="quick_settings_sound_vibrate">Trillen</string>
   <string name="quick_settings_sound_dnd">Niet storen</string>
-  <!-- Volume QS Tile -->
-  <string name="accessibility_quick_settings_volume_panel">Volume</string>
-  <string name="quick_settings_volume_panel_label">Volume</string>
   <!-- Quick Settings tiles -->
   <string name="quick_settings_screenshot_label">Schermafdruk</string>
   <string name="quick_settings_region_screenshot_label">Gedeeltelijke schermafdruk</string>
-  <string name="quick_settings_adb_network">ADB netwerk</string>
-  <string name="quick_settings_network_adb_enabled_label">Ingeschakeld</string>
-  <string name="quick_settings_network_adb_disabled_label">Uitgeschakeld</string>
-  <string name="quick_settings_sync_label">Sync</string>
-  <string name="accessibility_quick_settings_sync_off">Sync uit</string>
-  <string name="accessibility_quick_settings_sync_on">Sync aan</string>
-  <string name="accessibility_quick_settings_sync_changed_off">Sync uitgeschakeld</string>
-  <string name="accessibility_quick_settings_sync_changed_on">Sync ingeschakeld</string>
   <string name="quick_settings_expanded_desktop_label">Uitgebreid bureaublad</string>
   <string name="quick_settings_expanded_desktop">Uitgebreid</string>
   <string name="quick_settings_expanded_desktop_off">Normaal</string>
   <string name="quick_settings_reboot_label">Herstart</string>
   <string name="quick_settings_reboot_recovery_label">Recovery</string>
-  <string name="accessibility_quick_settings_usb_tether_off">USB tethering uit</string>
-  <string name="accessibility_quick_settings_usb_tether_on">USB tethering aan</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_off">USB tethering uitgeschakeld</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_on">USB tethering ingeschakeld</string>
-  <string name="quick_settings_usb_tether_label">USB tethering</string>
   <string name="quick_settings_music_label">Muziek</string>
   <string name="quick_settings_music_play">Afspelen</string>
   <string name="quick_settings_music_pause">Pauze</string>
   <string name="quick_settings_ime_tile_label">Invoermethode</string>
   <string name="rr_qs_tile">Instellingen</string>
-  <string name="quick_settings_caffeine_label">Cafeïne</string>
-  <string name="accessibility_quick_settings_caffeine_off">Cafeïne uit</string>
-  <string name="accessibility_quick_settings_caffeine_on">Cafeïne aan</string>
   <string name="qs_app_picker_title">App Kiezer</string>
   <string name="quick_settings_lte_label">LTE</string>
   <string name="lte_on">LTE AAN </string>
@@ -129,11 +110,6 @@
   <string name="accessibility_quick_settings_ambient_display_on">Actieve display aan</string>
   <string name="accessibility_quick_settings_ambient_display_changed_off">Actieve display uitgeschakeld</string>
   <string name="accessibility_quick_settings_ambient_display_changed_on">Actieve display ingeschakeld</string>
-  <string name="quick_settings_heads_up_label">Notificaties</string>
-  <string name="accessibility_quick_settings_heads_up_off">Notificaties uit</string>
-  <string name="accessibility_quick_settings_heads_up_on">Notificaties aan</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">Notificaties uitgeschakeld</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">Notificaties ingeschakeld</string>
   <!-- Location Tile -->
   <string name="accessibility_quick_settings_location_battery_saving">Locatiebepaling: accu besparingsmodus.</string>
   <string name="accessibility_quick_settings_location_gps_only">Locatiebepaling: alleen apparaat.</string>
@@ -177,22 +153,6 @@
   <!-- Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] -->
   <string name="accessibility_quick_settings_perf_profile_changed_bias_perf">Accu modus gewijzigd naar gematigde snelheid.</string>
   <string name="quick_settings_performance_profile_detail_title">Accu modus</string>
-  <!-- Compass QS Tile -->
-  <string name="quick_settings_compass_label">Kompas</string>
-  <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
-  <string name="quick_settings_compass_init">Initialiseren\u2026</string>
-  <string name="accessibility_quick_settings_compass_off">Kompas uit.</string>
-  <string name="accessibility_quick_settings_compass_on">Kompas aan.</string>
-  <string name="accessibility_quick_settings_compass_changed_off">Kompas uitgeschakeld.</string>
-  <string name="accessibility_quick_settings_compass_changed_on">Kompas ingeschakeld.</string>
-  <string name="quick_settings_compass_N">N</string>
-  <string name="quick_settings_compass_NE">NO</string>
-  <string name="quick_settings_compass_E">O</string>
-  <string name="quick_settings_compass_SE">ZO</string>
-  <string name="quick_settings_compass_S">Z</string>
-  <string name="quick_settings_compass_SW">ZW</string>
-  <string name="quick_settings_compass_W">W</string>
-  <string name="quick_settings_compass_NW">NW</string>
   <!-- HW Keys Tile -->
   <string name="accessibility_quick_settings_hwkeys_on">HW knoppen aan</string>
   <string name="accessibility_quick_settings_hwkeys_off">HW knoppen uit</string>

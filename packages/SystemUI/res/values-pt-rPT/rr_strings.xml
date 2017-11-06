@@ -60,38 +60,19 @@
   <string name="quick_settings_sound_ring">Toque</string>
   <string name="quick_settings_sound_vibrate">Vibração</string>
   <string name="quick_settings_sound_dnd">Não incomodar</string>
-  <!-- Volume QS Tile -->
-  <string name="accessibility_quick_settings_volume_panel">Volume</string>
-  <string name="quick_settings_volume_panel_label">Volume</string>
   <!-- Quick Settings tiles -->
   <string name="quick_settings_screenshot_label">Captura de ecrã</string>
   <string name="quick_settings_region_screenshot_label">Captura parcial de ecrã</string>
-  <string name="quick_settings_adb_network">Rede ADB</string>
-  <string name="quick_settings_network_adb_enabled_label">Ativada</string>
-  <string name="quick_settings_network_adb_disabled_label">Desativada</string>
-  <string name="quick_settings_sync_label">Sincronizar</string>
-  <string name="accessibility_quick_settings_sync_off">Sincronização desativada</string>
-  <string name="accessibility_quick_settings_sync_on">Sincronização ativada</string>
-  <string name="accessibility_quick_settings_sync_changed_off">A sincronização foi desativada</string>
-  <string name="accessibility_quick_settings_sync_changed_on">A sincronização foi ativada</string>
   <string name="quick_settings_expanded_desktop_label">Área de trabalho expandida</string>
   <string name="quick_settings_expanded_desktop">Expandida</string>
   <string name="quick_settings_expanded_desktop_off">Normal</string>
   <string name="quick_settings_reboot_label">Reiniciar</string>
   <string name="quick_settings_reboot_recovery_label">Recuperação</string>
-  <string name="accessibility_quick_settings_usb_tether_off">Partilha de Internet por USB desligada</string>
-  <string name="accessibility_quick_settings_usb_tether_on">Partilha de Internet por USB ligada</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_off">A partilha de Internet por USB foi desligada</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_on">A partilha de Internet por USB foi ligada</string>
-  <string name="quick_settings_usb_tether_label">Partilha de Internet por USB</string>
   <string name="quick_settings_music_label">Música</string>
   <string name="quick_settings_music_play">Reproduzir</string>
   <string name="quick_settings_music_pause">Pausa</string>
   <string name="quick_settings_ime_tile_label">Método de entrada</string>
   <string name="rr_qs_tile">Definições</string>
-  <string name="quick_settings_caffeine_label">Cafeína</string>
-  <string name="accessibility_quick_settings_caffeine_off">Cafeína desligada</string>
-  <string name="accessibility_quick_settings_caffeine_on">Cafeína ligada</string>
   <string name="qs_app_picker_title">Seletor de aplicações</string>
   <string name="quick_settings_lte_label">LTE</string>
   <string name="lte_on">LTE ligado </string>
@@ -129,11 +110,6 @@
   <string name="accessibility_quick_settings_ambient_display_on">Visualização de ambiente ativada</string>
   <string name="accessibility_quick_settings_ambient_display_changed_off">A visualização de ambiente foi desligada</string>
   <string name="accessibility_quick_settings_ambient_display_changed_on">A visualização de ambiente foi ativada</string>
-  <string name="quick_settings_heads_up_label">Notificações heads-up</string>
-  <string name="accessibility_quick_settings_heads_up_off">Notificações heads-up desativadas</string>
-  <string name="accessibility_quick_settings_heads_up_on">Notificações heads-up ativadas</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">As notificações heads-up foram desativadas</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">As notificações heads-up foram ativadas</string>
   <!-- Location Tile -->
   <string name="accessibility_quick_settings_location_battery_saving">Modo de localização: poupança de bateria.</string>
   <string name="accessibility_quick_settings_location_gps_only">Modo de localização: apenas sensores.</string>
@@ -177,22 +153,6 @@
   <!-- Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] -->
   <string name="accessibility_quick_settings_perf_profile_changed_bias_perf">Modo de bateria alterado para o modo de rapidez.</string>
   <string name="quick_settings_performance_profile_detail_title">Modo de bateria</string>
-  <!-- Compass QS Tile -->
-  <string name="quick_settings_compass_label">Bússola</string>
-  <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
-  <string name="quick_settings_compass_init">A iniciar\u2026</string>
-  <string name="accessibility_quick_settings_compass_off">Bússola desligada</string>
-  <string name="accessibility_quick_settings_compass_on">Bússola ligada</string>
-  <string name="accessibility_quick_settings_compass_changed_off">A bússola foi desligada</string>
-  <string name="accessibility_quick_settings_compass_changed_on">A bússola foi ligada</string>
-  <string name="quick_settings_compass_N">N</string>
-  <string name="quick_settings_compass_NE">NE</string>
-  <string name="quick_settings_compass_E">E</string>
-  <string name="quick_settings_compass_SE">SE</string>
-  <string name="quick_settings_compass_S">S</string>
-  <string name="quick_settings_compass_SW">SO</string>
-  <string name="quick_settings_compass_W">O</string>
-  <string name="quick_settings_compass_NW">NO</string>
   <!-- HW Keys Tile -->
   <string name="accessibility_quick_settings_hwkeys_on">Botões físicos ligados</string>
   <string name="accessibility_quick_settings_hwkeys_off">Botões físicos desligados</string>

@@ -60,38 +60,18 @@
   <string name="quick_settings_sound_ring">التنبيه</string>
   <string name="quick_settings_sound_vibrate">هزاز</string>
   <string name="quick_settings_sound_dnd">عدم الإزعاج</string>
-  <!-- Volume QS Tile -->
-  <string name="accessibility_quick_settings_volume_panel">مستوى الصوت</string>
-  <string name="quick_settings_volume_panel_label">مستوى الصوت</string>
   <!-- Quick Settings tiles -->
   <string name="quick_settings_screenshot_label">تصوير الشاشة</string>
   <string name="quick_settings_region_screenshot_label">صورة جزئية للشاشة</string>
-  <string name="quick_settings_adb_network">شبكة ADB</string>
-  <string name="quick_settings_network_adb_enabled_label">مفعل</string>
-  <string name="quick_settings_network_adb_disabled_label">معطل</string>
-  <string name="quick_settings_sync_label">المزامنة</string>
-  <string name="accessibility_quick_settings_sync_off">إيقاف المزامنة</string>
-  <string name="accessibility_quick_settings_sync_on">تفعيل المزامنة</string>
-  <string name="accessibility_quick_settings_sync_changed_off">تم إيقاف المزامنة</string>
-  <string name="accessibility_quick_settings_sync_changed_on">تم تشغيل المزامنة</string>
-  <string name="quick_settings_expanded_desktop_label">سطح المكتب الموسع</string>
   <string name="quick_settings_expanded_desktop">توسيع</string>
   <string name="quick_settings_expanded_desktop_off">عادي</string>
   <string name="quick_settings_reboot_label">إعادة التشغيل</string>
   <string name="quick_settings_reboot_recovery_label">الإسترداد</string>
-  <string name="accessibility_quick_settings_usb_tether_off">ربط USB لا يعمل</string>
-  <string name="accessibility_quick_settings_usb_tether_on">ربط USB لا يعمل</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_off">ربط USB معطل</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_on">ربط USB مفعل</string>
-  <string name="quick_settings_usb_tether_label">ربط USB</string>
   <string name="quick_settings_music_label">موسيقى</string>
   <string name="quick_settings_music_play">تشغيل</string>
   <string name="quick_settings_music_pause">إيقاف مؤقت</string>
   <string name="quick_settings_ime_tile_label">طريقة الإدخال</string>
   <string name="rr_qs_tile">الإعدادات</string>
-  <string name="quick_settings_caffeine_label">كافيين</string>
-  <string name="accessibility_quick_settings_caffeine_off">كافيين لا يعمل</string>
-  <string name="accessibility_quick_settings_caffeine_on">كافيين يعمل</string>
   <string name="qs_app_picker_title">منتقِ التطبيقات</string>
   <string name="quick_settings_lte_label">LTE</string>
   <string name="lte_on">LTE يعمل </string>
@@ -129,11 +109,6 @@
   <string name="accessibility_quick_settings_ambient_display_on">العرض المحيطي يعمل</string>
   <string name="accessibility_quick_settings_ambient_display_changed_off">العرض المحيطي معطل</string>
   <string name="accessibility_quick_settings_ambient_display_changed_on">العرض المحيطي مغعل</string>
-  <string name="quick_settings_heads_up_label">الإشعارات العلوية</string>
-  <string name="accessibility_quick_settings_heads_up_off">إيقاف الإشعارات العلوية</string>
-  <string name="accessibility_quick_settings_heads_up_on">الإشعارات العلوية تعمل</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">الإشعارات العلوية معطلة</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">الإشعارات العلوية مغعلة</string>
   <!-- Location Tile -->
   <string name="accessibility_quick_settings_location_battery_saving">تقرير الموقع: وضعية توفير الطاقة.</string>
   <string name="accessibility_quick_settings_location_gps_only">تقرير الموقع: وضعية الحساسات فقط.</string>
@@ -177,22 +152,6 @@
   <!-- Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] -->
   <string name="accessibility_quick_settings_perf_profile_changed_bias_perf">نمط البطارية تغير لوضعية السرعة.</string>
   <string name="quick_settings_performance_profile_detail_title">نمط البطارية</string>
-  <!-- Compass QS Tile -->
-  <string name="quick_settings_compass_label">البوصلة</string>
-  <string name="quick_settings_compass_value"><xliff:g id="درجات">%1$.0f</xliff:g>\u00b0 <xliff:g id="الإتجاه">%2$s</xliff:g></string>
-  <string name="quick_settings_compass_init">تهيئة/u2026</string>
-  <string name="accessibility_quick_settings_compass_off">البوصلة لا تعمل.</string>
-  <string name="accessibility_quick_settings_compass_on">البوصلة تعمل.</string>
-  <string name="accessibility_quick_settings_compass_changed_off">البوصلة معطلة.</string>
-  <string name="accessibility_quick_settings_compass_changed_on">البوصلة مفعلة.</string>
-  <string name="quick_settings_compass_N">ش</string>
-  <string name="quick_settings_compass_NE">ش ش</string>
-  <string name="quick_settings_compass_E">ش</string>
-  <string name="quick_settings_compass_SE">ج ش</string>
-  <string name="quick_settings_compass_S">ج</string>
-  <string name="quick_settings_compass_SW">ج غ</string>
-  <string name="quick_settings_compass_W">غ</string>
-  <string name="quick_settings_compass_NW">ش غ</string>
   <!-- HW Keys Tile -->
   <string name="accessibility_quick_settings_hwkeys_on">الأزرار الملموسة تعمل</string>
   <string name="accessibility_quick_settings_hwkeys_off">الأزرار الملموسة لا تعمل</string>

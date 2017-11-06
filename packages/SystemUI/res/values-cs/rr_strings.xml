@@ -60,38 +60,19 @@
   <string name="quick_settings_sound_ring">Vyzvánění</string>
   <string name="quick_settings_sound_vibrate">Vibrace</string>
   <string name="quick_settings_sound_dnd">Nerušit</string>
-  <!-- Volume QS Tile -->
-  <string name="accessibility_quick_settings_volume_panel">Hlasitost</string>
-  <string name="quick_settings_volume_panel_label">Hlasitost</string>
   <!-- Quick Settings tiles -->
   <string name="quick_settings_screenshot_label">Snímek obrazovky</string>
   <string name="quick_settings_region_screenshot_label">Částečný snímek obrazovky</string>
-  <string name="quick_settings_adb_network">ADB síť</string>
-  <string name="quick_settings_network_adb_enabled_label">Povoleno</string>
-  <string name="quick_settings_network_adb_disabled_label">Vypnuto</string>
-  <string name="quick_settings_sync_label">Synchronizovat</string>
-  <string name="accessibility_quick_settings_sync_off">Synch. vyp</string>
-  <string name="accessibility_quick_settings_sync_on">Synch. zapnuta</string>
-  <string name="accessibility_quick_settings_sync_changed_off">Synchronizace vypnuta</string>
-  <string name="accessibility_quick_settings_sync_changed_on">Synchronizace zapnuta</string>
   <string name="quick_settings_expanded_desktop_label">Rozšířená plocha</string>
   <string name="quick_settings_expanded_desktop">Rozšířená</string>
   <string name="quick_settings_expanded_desktop_off">Normální</string>
   <string name="quick_settings_reboot_label">Restartovat</string>
   <string name="quick_settings_reboot_recovery_label">Recovery</string>
-  <string name="accessibility_quick_settings_usb_tether_off">USB sdílené připojení vypnout</string>
-  <string name="accessibility_quick_settings_usb_tether_on">USB sdílené připojení zapnout</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_off">USB sdílené připojení vypnuto</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_on">USB sdílené připojení zapnuto</string>
-  <string name="quick_settings_usb_tether_label">Připojení přes USB</string>
   <string name="quick_settings_music_label">Hudba</string>
   <string name="quick_settings_music_play">Play</string>
   <string name="quick_settings_music_pause">Pozastavit</string>
   <string name="quick_settings_ime_tile_label">Metoda zadávání dat</string>
   <string name="rr_qs_tile">Konfigurace</string>
-  <string name="quick_settings_caffeine_label">Čas na kávu</string>
-  <string name="accessibility_quick_settings_caffeine_off">Čas na kávu vypnut</string>
-  <string name="accessibility_quick_settings_caffeine_on">Čas na kávu zapnut</string>
   <string name="qs_app_picker_title">Výběr aplikace</string>
   <string name="quick_settings_lte_label">LTE</string>
   <string name="lte_on">LTE zapnuto</string>
@@ -129,11 +110,6 @@
   <string name="accessibility_quick_settings_ambient_display_on">Ambientní displej zapnut</string>
   <string name="accessibility_quick_settings_ambient_display_changed_off">Ambientní displej vypnut</string>
   <string name="accessibility_quick_settings_ambient_display_changed_on">Ambientní displej zapnut</string>
-  <string name="quick_settings_heads_up_label">Plovoucí upozornění</string>
-  <string name="accessibility_quick_settings_heads_up_off">Plovoucí upozornění vypnuto</string>
-  <string name="accessibility_quick_settings_heads_up_on">Plovoucí upozornění zapnuto</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">Plovoucí upozornění vypnuto</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">Plovoucí upozornění zapnuto</string>
   <!-- Location Tile -->
   <string name="accessibility_quick_settings_location_battery_saving">Hlášení polohy: úspora baterie.</string>
   <string name="accessibility_quick_settings_location_gps_only">Hlášení polohy: pouze GPS.</string>
@@ -177,22 +153,6 @@
   <!-- Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] -->
   <string name="accessibility_quick_settings_perf_profile_changed_bias_perf">Režim baterie se změnil na rychlý.</string>
   <string name="quick_settings_performance_profile_detail_title">Režim baterie</string>
-  <!-- Compass QS Tile -->
-  <string name="quick_settings_compass_label">Kompas</string>
-  <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
-  <string name="quick_settings_compass_init">Spouštění\u2026</string>
-  <string name="accessibility_quick_settings_compass_off">Kompas vypnutý.</string>
-  <string name="accessibility_quick_settings_compass_on">Kompas zapnutý.</string>
-  <string name="accessibility_quick_settings_compass_changed_off">Kompas vypnutý.</string>
-  <string name="accessibility_quick_settings_compass_changed_on">Kompas zapnutý.</string>
-  <string name="quick_settings_compass_N">S</string>
-  <string name="quick_settings_compass_NE">SV</string>
-  <string name="quick_settings_compass_E">V</string>
-  <string name="quick_settings_compass_SE">JV</string>
-  <string name="quick_settings_compass_S">J</string>
-  <string name="quick_settings_compass_SW">JZ</string>
-  <string name="quick_settings_compass_W">Z</string>
-  <string name="quick_settings_compass_NW">SZ</string>
   <!-- HW Keys Tile -->
   <string name="accessibility_quick_settings_hwkeys_on">Hardvarová tlačítka zapnuta</string>
   <string name="accessibility_quick_settings_hwkeys_off">Hardvarová tlačítka vypnuta</string>

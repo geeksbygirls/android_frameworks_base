@@ -60,38 +60,19 @@
   <string name="quick_settings_sound_ring">צלצול</string>
   <string name="quick_settings_sound_vibrate">רטט</string>
   <string name="quick_settings_sound_dnd">נא לא להפריע</string>
-  <!-- Volume QS Tile -->
-  <string name="accessibility_quick_settings_volume_panel">ווליום</string>
-  <string name="quick_settings_volume_panel_label">ווליום</string>
   <!-- Quick Settings tiles -->
   <string name="quick_settings_screenshot_label">צילום מסך</string>
   <string name="quick_settings_region_screenshot_label">צילום מסך חלקית</string>
-  <string name="quick_settings_adb_network">ADB רשת</string>
-  <string name="quick_settings_network_adb_enabled_label">אפשר</string>
-  <string name="quick_settings_network_adb_disabled_label">בטל</string>
-  <string name="quick_settings_sync_label">סנכרן</string>
-  <string name="accessibility_quick_settings_sync_off">סינכרון כבוי</string>
-  <string name="accessibility_quick_settings_sync_on">סינכרון פעיל</string>
-  <string name="accessibility_quick_settings_sync_changed_off">סינכרון כבוי</string>
-  <string name="accessibility_quick_settings_sync_changed_on">סינכרון מופעל</string>
   <string name="quick_settings_expanded_desktop_label">שולחן עבודה מורחב</string>
   <string name="quick_settings_expanded_desktop">מורחב</string>
   <string name="quick_settings_expanded_desktop_off">רגיל</string>
   <string name="quick_settings_reboot_label">הפעלה מחדש</string>
   <string name="quick_settings_reboot_recovery_label">שחזור</string>
-  <string name="accessibility_quick_settings_usb_tether_off">שיתוף אינטרנט USB מבוטל</string>
-  <string name="accessibility_quick_settings_usb_tether_on">שיתוף אינטרנט USB מופעל</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_off">שיתוף אינטרנט USB כבוי</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_on">שיתוף אינטרנט פועל</string>
-  <string name="quick_settings_usb_tether_label">שיתוף אינטרנט דרך USB</string>
   <string name="quick_settings_music_label">מוזיקה</string>
   <string name="quick_settings_music_play">הפעל</string>
   <string name="quick_settings_music_pause">השהה</string>
   <string name="quick_settings_ime_tile_label">שיטת קלט</string>
   <string name="rr_qs_tile">הגדרות</string>
-  <string name="quick_settings_caffeine_label">קפאין</string>
-  <string name="accessibility_quick_settings_caffeine_off">קפאין קפוא</string>
-  <string name="accessibility_quick_settings_caffeine_on">קפאין כבוי</string>
   <string name="qs_app_picker_title">מסנן יישומים</string>
   <string name="quick_settings_lte_label">LTE</string>
   <string name="lte_on">LTE מופעל </string>
@@ -129,11 +110,6 @@
   <string name="accessibility_quick_settings_ambient_display_on">תצוגת אמביאנט דולקת</string>
   <string name="accessibility_quick_settings_ambient_display_changed_off">תצוגת אמביאנט כבויה</string>
   <string name="accessibility_quick_settings_ambient_display_changed_on">תצוגת אמביאנט דולקת</string>
-  <string name="quick_settings_heads_up_label">הודעה עליונה</string>
-  <string name="accessibility_quick_settings_heads_up_off">הודעה עליונה כבויה</string>
-  <string name="accessibility_quick_settings_heads_up_on">הודעה עליונה דולקת</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">הודעה עליונה כבויה</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">הודעה עליונה דולקת</string>
   <!-- Location Tile -->
   <string name="accessibility_quick_settings_location_battery_saving">דיווח מיקום: מצב חסכון סוללה.</string>
   <string name="accessibility_quick_settings_location_gps_only">דיווח מיקום: מצב חיישן בלבד.</string>
@@ -177,20 +153,6 @@
   <!-- Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] -->
   <string name="accessibility_quick_settings_perf_profile_changed_bias_perf">מצב סוללה השתנה למצב מהירות.</string>
   <string name="quick_settings_performance_profile_detail_title">מצב סוללה</string>
-  <!-- Compass QS Tile -->
-  <string name="quick_settings_compass_label">מצפן</string>
-  <string name="accessibility_quick_settings_compass_off">מצפן כבוי.</string>
-  <string name="accessibility_quick_settings_compass_on">מצפן דלוק.</string>
-  <string name="accessibility_quick_settings_compass_changed_off">המצפן כבוי.</string>
-  <string name="accessibility_quick_settings_compass_changed_on">המצפן מופעל.</string>
-  <string name="quick_settings_compass_N">צ</string>
-  <string name="quick_settings_compass_NE">צ.מז.</string>
-  <string name="quick_settings_compass_E">מז</string>
-  <string name="quick_settings_compass_SE">ד.מז.</string>
-  <string name="quick_settings_compass_S">ד</string>
-  <string name="quick_settings_compass_SW">ד.מע.</string>
-  <string name="quick_settings_compass_W">מע</string>
-  <string name="quick_settings_compass_NW">צ.מע.</string>
   <!-- HW Keys Tile -->
   <string name="accessibility_quick_settings_hwkeys_on">מקשי חומרה מופעל</string>
   <string name="accessibility_quick_settings_hwkeys_off">מקשי חומרה מושבת</string>
