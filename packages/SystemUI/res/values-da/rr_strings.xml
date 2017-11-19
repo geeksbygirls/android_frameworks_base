@@ -106,6 +106,10 @@
   <string name="accessibility_quick_settings_pulse_changed_on">Puls tændt</string>
   <string name="quick_settings_pulse_label">Navigation bar visualizer</string>
   <string name="quick_settings_ambient_display_label">Ambient display</string>
+  <string name="accessibility_quick_settings_ambient_display_off">Opmærksom skærm fra</string>
+  <string name="accessibility_quick_settings_ambient_display_on">Opmærksom skærm til</string>
+  <string name="accessibility_quick_settings_ambient_display_changed_off">Opmærksom skærm slået fra</string>
+  <string name="accessibility_quick_settings_ambient_display_changed_on">Opmærksom skærm slået til</string>
   <!-- Location Tile -->
   <!-- Language\Locale Tile -->
   <!-- Suspend Actions Tile -->
