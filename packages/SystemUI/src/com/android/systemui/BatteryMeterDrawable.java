@@ -102,6 +102,8 @@ public class BatteryMeterDrawable extends Drawable implements
     private final int mCriticalLevel;
     private int mChargeColor;
     private boolean mBoltOverlay;
+    private boolean mBatteryColor;
+    private boolean mLargeText;
     private final Path mBoltPath = new Path();
     private final Path mPlusPath = new Path();
 
@@ -173,6 +175,19 @@ public class BatteryMeterDrawable extends Drawable implements
         mStyle = style;
         mBoltOverlay = boltOverlay;
         final Resources res = context.getResources();
+        if ((Settings.System.getInt(mContext.getContentResolver(), Settings.System.COLORFUL_BATTERY, 0) == 1)) {
+        TypedArray levels = res.obtainTypedArray(R.array.batterymeter_colorful_levels);
+        TypedArray colors = res.obtainTypedArray(R.array.batterymeter_colorful_values);
+
+        final int N = levels.length();
+        mColors = new int[2*N];
+        for (int i=0; i<N; i++) {
+            mColors[2*i] = levels.getInt(i, 0);
+            mColors[2*i+1] = colors.getColor(i, 0);
+        }
+        levels.recycle();
+        colors.recycle();
+        } else {
         TypedArray levels = res.obtainTypedArray(R.array.batterymeter_color_levels);
         TypedArray colors = res.obtainTypedArray(R.array.batterymeter_color_values);
 
@@ -184,6 +199,8 @@ public class BatteryMeterDrawable extends Drawable implements
         }
         levels.recycle();
         colors.recycle();
+        }
+        updateBatteryColor();
         updateShowPercent();
         updateForceChargeBatteryText();
         updateCustomChargingSymbol();
@@ -279,8 +296,13 @@ public class BatteryMeterDrawable extends Drawable implements
         mContext.getContentResolver().registerContentObserver(
                 Settings.Secure.getUriFor(Settings.Secure.TEXT_CHARGING_SYMBOL),
                 false, mSettingObserver);
+        mContext.getContentResolver().registerContentObserver(
+                Settings.System.getUriFor(Settings.System.COLORFUL_BATTERY),
+                false, mSettingObserver);
         updateShowPercent();
         updateChargeColor();
+        updateLargeText();
+        updateBatteryColor();
         updateForceChargeBatteryText();
         updateCustomChargingSymbol();
         mBatteryController.addStateChangedCallback(this);
@@ -315,10 +337,10 @@ public class BatteryMeterDrawable extends Drawable implements
     public void onBatteryLevelChanged(int level, boolean pluggedIn, boolean charging) {
         mLevel = level;
         mPluggedIn = pluggedIn;
-       if (Settings.Secure.getInt(mContext.getContentResolver(),
+        if (Settings.Secure.getInt(mContext.getContentResolver(),
             Settings.Secure.STATUS_BAR_PULSE_CHARGING_BATTERY, 0) == 1) {
             animateBattery(level, pluggedIn, charging);
-       }
+        }
        postInvalidate();
     }
 
@@ -388,6 +410,16 @@ public class BatteryMeterDrawable extends Drawable implements
                 Settings.Secure.TEXT_CHARGING_SYMBOL, 0);
     }
 
+    private void updateLargeText() {
+        mLargeText = Settings.System.getInt(mContext.getContentResolver(),
+                Settings.System.BATTERY_LARGE_TEXT, 0) == 1;
+    }
+
+    private void updateBatteryColor() {
+        mBatteryColor = Settings.System.getInt(mContext.getContentResolver(),
+                Settings.System.COLORFUL_BATTERY, 0) == 1;
+    }
+
     private int updateDarkDensityChargeColor() {
         updateChargeColor();
         return mChargeColor;
@@ -411,7 +443,8 @@ public class BatteryMeterDrawable extends Drawable implements
                         return getBoltColor();
                     }
                 } else {
-                    if ((mStyle == BATTERY_STYLE_SOLID || mStyle == BATTERY_STYLE_CIRCLE)
+                    if ((mStyle == BATTERY_STYLE_SOLID || mStyle == BATTERY_STYLE_CIRCLE
+				|| mStyle == BATTERY_STYLE_BIGCIRCLE)
                          && !mPluggedIn) {
                          return mColors[1];
                     } else if (!isChargeLevel) {
@@ -431,13 +464,9 @@ public class BatteryMeterDrawable extends Drawable implements
                 if (percent <= thresh) {
 
                    // Respect tinting for "normal" level
-                    if (i == mColors.length - 2) {
-                        return mIconTint;
-                    } else {
                        return color;
                     }
                 }
-           }
            return color;
        }
     }
@@ -548,6 +577,8 @@ public class BatteryMeterDrawable extends Drawable implements
             super.onChange(selfChange, uri);
             updateShowPercent();
             updateChargeColor();
+            updateLargeText();
+            updateBatteryColor();
             updateForceChargeBatteryText();
             updateCustomChargingSymbol();
             postInvalidate();
@@ -659,10 +690,10 @@ public class BatteryMeterDrawable extends Drawable implements
 
     private int getBoltColor() {
         if (mBoltOverlay) {
-        if (mStyle == BATTERY_STYLE_CIRCLE || mStyle == BATTERY_STYLE_BIGCIRCLE) {
             updateChargeColor();
             return mContext.getResources().getColor((mStyle == BATTERY_STYLE_SOLID ||
-                mStyle == BATTERY_STYLE_CIRCLE) ? R.color.batterymeter_bolt_color : R.color.system_primary_color);
+                mStyle == BATTERY_STYLE_CIRCLE || mStyle == BATTERY_STYLE_BIGCIRCLE)
+			? R.color.batterymeter_bolt_color : R.color.system_primary_color);
         }
         return mContext.getResources().getColor(R.color.batterymeter_bolt_color);
     }
@@ -677,7 +708,7 @@ public class BatteryMeterDrawable extends Drawable implements
         final float widthDiv2 = mWidth / 2f;
         // text size is width / 2 - 2dp for wiggle room
 
-        if ((Settings.System.getInt(mContext.getContentResolver(), Settings.System.BATTERY_LARGE_TEXT, 0) == 1)) {
+        if (mLargeText) {
         final float textSize;
         switch(mStyle) {
             case BATTERY_STYLE_CIRCLE:
