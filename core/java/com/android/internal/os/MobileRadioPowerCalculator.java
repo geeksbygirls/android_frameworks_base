@@ -46,7 +46,7 @@ public class MobileRadioPowerCalculator extends PowerCalculator {
         final double mobilePps = (mobileData != 0 && radioDataUptimeMs != 0)
                 ? (mobileData / (double)radioDataUptimeMs)
                 : (((double)MOBILE_BPS) / 8 / 2048);
-        return MOBILE_POWER / mobilePps ;
+        return MOBILE_POWER / mobilePps;
     }
 
     public MobileRadioPowerCalculator(PowerProfile profile, BatteryStats stats) {

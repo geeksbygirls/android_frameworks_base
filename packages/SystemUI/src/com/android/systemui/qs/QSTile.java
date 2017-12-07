@@ -568,7 +568,6 @@ public abstract class QSTile<TState extends State> {
         public boolean visible;
         public boolean enabled = true;
         public Icon icon;
-		public boolean visible;
         public CharSequence label;
         public CharSequence contentDescription;
         public CharSequence dualLabelContentDescription;
@@ -578,7 +577,6 @@ public abstract class QSTile<TState extends State> {
         public EnforcedAdmin enforcedAdmin;
         public String minimalAccessibilityClassName;
         public String expandedAccessibilityClassName;
-		public boolean enabled = true;
         public boolean value;
 
         public boolean copyTo(State other) {
