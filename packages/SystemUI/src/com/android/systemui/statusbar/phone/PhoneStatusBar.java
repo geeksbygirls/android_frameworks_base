@@ -349,6 +349,18 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
      * libhwui.
      */
     private static final float SRC_MIN_ALPHA = 0.002f;
+
+    private static final String SCREEN_BRIGHTNESS_MODE =
+            "system:" + Settings.System.SCREEN_BRIGHTNESS_MODE;
+    private static final String STATUS_BAR_BRIGHTNESS_CONTROL =
+            "cmsystem:" + CMSettings.System.STATUS_BAR_BRIGHTNESS_CONTROL;
+    private static final String NAVBAR_LEFT_IN_LANDSCAPE =
+            "cmsystem:" + CMSettings.System.NAVBAR_LEFT_IN_LANDSCAPE;
+    private static final String LOCKSCREEN_MEDIA_METADATA =
+            "cmsecure:" + CMSettings.Secure.LOCKSCREEN_MEDIA_METADATA;
+    private static final String SYSTEMUI_BURNIN_PROTECTION =
+            "cmsystem:" + CMSettings.System.SYSTEMUI_BURNIN_PROTECTION;
+
     static {
         boolean onlyCoreApps;
         boolean freeformWindowManagement;
@@ -1380,6 +1392,13 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
         observer.observe();
 
         updateRecents();
+        
+        TunerService.get(mContext).addTunable(this,
+                SCREEN_BRIGHTNESS_MODE,
+                NAVBAR_LEFT_IN_LANDSCAPE,
+                STATUS_BAR_BRIGHTNESS_CONTROL,
+                LOCKSCREEN_MEDIA_METADATA,
+                SYSTEMUI_BURNIN_PROTECTION);
 
         // Lastly, call to the icon policy to install/update all the icons.
         mIconPolicy = new PhoneStatusBarPolicy(mContext, mIconController, mCastController,
