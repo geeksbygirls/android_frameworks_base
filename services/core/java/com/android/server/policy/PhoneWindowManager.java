@@ -4608,12 +4608,12 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                     Log.d(TAG, "Dispatching key event " + event + " to handler " + handler);
                 }
                 event = handler.handleKeyEvent(event);
-		if (mIsDeviceInPocket) {
-                    return false;
-                    }
                 if (event == null) {
-                     return true;
-                 }
+                    if (mIsDeviceInPocket) {
+                        return false;
+                    }
+                    return true;
+                }
             } catch (Exception e) {
                 Slog.w(TAG, "Could not dispatch event to device key handler", e);
             }
