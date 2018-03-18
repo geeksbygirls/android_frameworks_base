@@ -765,7 +765,7 @@ public class KeyguardStatusView extends GridLayout implements
         int currentVisibleNotifications = Settings.System.getInt(resolver,
             Settings.System.LOCK_SCREEN_VISIBLE_NOTIFICATIONS, 0);
         int numberOfNotificationsToHide = Settings.System.getInt(resolver,
-            Settings.System.LOCK_SCREEN_WEATHER_NUMBER_OF_NOTIFICATIONS, 4);
+            Settings.System.LOCK_SCREEN_WEATHER_NUMBER_OF_NOTIFICATIONS, 3);
         int primaryTextColor =
             res.getColor(R.color.keyguard_default_primary_text_color);
         // primaryTextColor with a transparency of 70%
