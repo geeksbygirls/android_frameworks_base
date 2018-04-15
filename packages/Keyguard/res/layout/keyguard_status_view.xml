@@ -46,8 +46,17 @@
             android:format24Hour="@string/keyguard_widget_24_hours_format"
             android:layout_marginBottom="@dimen/bottom_text_spacing_digital" />
 
-        <include layout="@layout/keyguard_status_area" />
-        <include layout="@layout/keyguard_weather_view" />
+            <include layout="@layout/keyguard_status_area"
+                android:id="@+id/keyguard_status_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/clock_view" />
+
+            <include layout="@layout/keyguard_weather_view"
+                android:id="@+id/keyguard_weather_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/keyguard_status_area" />
         <TextView
             android:id="@+id/owner_info"
             android:layout_marginLeft="16dp"
@@ -66,6 +75,5 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"/>
-
     </LinearLayout>
 </com.android.keyguard.KeyguardStatusView>

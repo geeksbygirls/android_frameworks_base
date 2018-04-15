@@ -350,17 +350,6 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
      */
     private static final float SRC_MIN_ALPHA = 0.002f;
 
-    private static final String SCREEN_BRIGHTNESS_MODE =
-            "system:" + Settings.System.SCREEN_BRIGHTNESS_MODE;
-    private static final String STATUS_BAR_BRIGHTNESS_CONTROL =
-            "cmsystem:" + CMSettings.System.STATUS_BAR_BRIGHTNESS_CONTROL;
-    private static final String NAVBAR_LEFT_IN_LANDSCAPE =
-            "cmsystem:" + CMSettings.System.NAVBAR_LEFT_IN_LANDSCAPE;
-    private static final String LOCKSCREEN_MEDIA_METADATA =
-            "cmsecure:" + CMSettings.Secure.LOCKSCREEN_MEDIA_METADATA;
-    private static final String SYSTEMUI_BURNIN_PROTECTION =
-            "cmsystem:" + CMSettings.System.SYSTEMUI_BURNIN_PROTECTION;
-
     static {
         boolean onlyCoreApps;
         boolean freeformWindowManagement;
@@ -747,73 +736,73 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
                  false, this);
             resolver.registerContentObserver(Settings.System.getUriFor(
                  Settings.System.STATUS_BAR_CUSTOM_HEADER_SHADOW),
-                    false, this, UserHandle.USER_ALL);
+                 false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.System.getUriFor(
                  Settings.System.STATUS_BAR_CUSTOM_HEADER),
-                    false, this, UserHandle.USER_ALL);
+                 false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.System.getUriFor(
                  Settings.System.ENABLE_TASK_MANAGER),
                  false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.System.getUriFor(
-                    Settings.System.NAVIGATION_BAR_RECENTS),
-                    false, this, UserHandle.USER_ALL);
+                 Settings.System.NAVIGATION_BAR_RECENTS),
+                 false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.System.getUriFor(
-                    Settings.System.LOCKSCREEN_ALPHA),
-                    false, this, UserHandle.USER_ALL);
+                 Settings.System.LOCKSCREEN_ALPHA),
+                 false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.System.getUriFor(
-                    Settings.System.LOCKSCREEN_SECURITY_ALPHA),
-                    false, this, UserHandle.USER_ALL);
+                 Settings.System.LOCKSCREEN_SECURITY_ALPHA),
+                 false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.System.getUriFor(
-                    Settings.System.RECENT_CARD_BG_COLOR), false, this,
-                    UserHandle.USER_ALL);
-             resolver.registerContentObserver(Settings.System.getUriFor(
-                    Settings.System.EMPTY_SHADE_VIEW_SHOW_CARRIER_NAME),
-                    false, this, UserHandle.USER_ALL);
+                 Settings.System.RECENT_CARD_BG_COLOR), false, this,
+                 UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.System.getUriFor(
-                    Settings.System.EMPTY_SHADE_VIEW_SHOW_WIFI_NAME),
-                    false, this, UserHandle.USER_ALL);
+                 Settings.System.EMPTY_SHADE_VIEW_SHOW_CARRIER_NAME),
+                 false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.System.getUriFor(
-                    Settings.System.EMPTY_SHADE_VIEW_TEXT_COLOR),
-                    false, this, UserHandle.USER_ALL);
+                 Settings.System.EMPTY_SHADE_VIEW_SHOW_WIFI_NAME),
+                 false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.System.getUriFor(
-                    Settings.System.NO_SIM_CLUSTER_SWITCH),
-                    false, this, UserHandle.USER_ALL);
+                 Settings.System.EMPTY_SHADE_VIEW_TEXT_COLOR),
+                 false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.System.getUriFor(
-                    Settings.System.NAVBAR_BUTON_CUSTOM_ICON_SWITCH),
-                    false, this, UserHandle.USER_ALL);
+                 Settings.System.NO_SIM_CLUSTER_SWITCH),
+                 false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.System.getUriFor(
-                    Settings.System.HEADER_WEATHER_ENABLED),
-                    false, this, UserHandle.USER_ALL);
+                 Settings.System.NAVBAR_BUTON_CUSTOM_ICON_SWITCH),
+                 false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.System.getUriFor(
-                    Settings.System.HEADER_WEATHER_IMAGE_ENABLED),
-                    false, this, UserHandle.USER_ALL);
+                 Settings.System.HEADER_WEATHER_ENABLED),
+                 false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.System.getUriFor(
-                    Settings.System.OMNIJAWS_WEATHER_ICON_PACK),
-                    false, this, UserHandle.USER_ALL);
+                 Settings.System.HEADER_WEATHER_IMAGE_ENABLED),
+                 false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.System.getUriFor(
-                    Settings.System.QS_FOOTER_WARNINGS),
-                    false, this, UserHandle.USER_ALL);
+                 Settings.System.OMNIJAWS_WEATHER_ICON_PACK),
+                 false, this, UserHandle.USER_ALL);
+            resolver.registerContentObserver(Settings.System.getUriFor(
+                 Settings.System.QS_FOOTER_WARNINGS),
+                 false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.Secure.getUriFor(
-                  Settings.Secure.SYSTEM_NAVIGATION_KEYS_ENABLED),
-                  false, this, UserHandle.USER_ALL);
+                 Settings.Secure.SYSTEM_NAVIGATION_KEYS_ENABLED),
+                 false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.System.getUriFor(
-                  Settings.System.FP_SWIPE_CALL_ACTIONS),
-                  false, this, UserHandle.USER_ALL);
+                 Settings.System.FP_SWIPE_CALL_ACTIONS),
+                 false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.System.getUriFor(
-                    Settings.System.LOCKSCREEN_MEDIA_METADATA),
-                    false, this, UserHandle.USER_ALL);
+                 Settings.System.LOCKSCREEN_MEDIA_METADATA),
+                 false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(CMSettings.System.getUriFor(
-                    CMSettings.System.SYSTEMUI_BURNIN_PROTECTION),
-                    false, this, UserHandle.USER_ALL);
+                 CMSettings.System.SYSTEMUI_BURNIN_PROTECTION),
+                 false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.Secure.getUriFor(
-                    Settings.Secure.NAVIGATION_BAR_VISIBLE), false, this,
-                    UserHandle.USER_ALL);
+                 Settings.Secure.NAVIGATION_BAR_VISIBLE), false, this,
+                 UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.Secure.getUriFor(
                  Settings.System.APP_SIDEBAR_POSITION),
-                 false, this, UserHandle.USER_ALL);
+                 false, this, UserHandle.USER_ALL); 
             update();
         }
-        
+
         @Override
         protected void unobserve() {
             super.unobserve();
@@ -1392,13 +1381,6 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
         observer.observe();
 
         updateRecents();
-        
-        TunerService.get(mContext).addTunable(this,
-                SCREEN_BRIGHTNESS_MODE,
-                NAVBAR_LEFT_IN_LANDSCAPE,
-                STATUS_BAR_BRIGHTNESS_CONTROL,
-                LOCKSCREEN_MEDIA_METADATA,
-                SYSTEMUI_BURNIN_PROTECTION);
 
         // Lastly, call to the icon policy to install/update all the icons.
         mIconPolicy = new PhoneStatusBarPolicy(mContext, mIconController, mCastController,
