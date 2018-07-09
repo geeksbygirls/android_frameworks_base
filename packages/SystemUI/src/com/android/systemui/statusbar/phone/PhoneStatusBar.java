@@ -5016,11 +5016,27 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
 		} else if ( style == 40) {
         d = mContext.getResources().getDrawable(R.drawable.rr_noring);
 		} else if ( style == 41) {
-        d = mContext.getResources().getDrawable(R.drawable.spider1);
+        d = mContext.getResources().getDrawable(R.drawable.rr_logo_yinyang);
 		} else if ( style == 42) {
-        d = mContext.getResources().getDrawable(R.drawable.spider2);
+        d = mContext.getResources().getDrawable(R.drawable.spider1);
 		} else if ( style == 43) {
+        d = mContext.getResources().getDrawable(R.drawable.spider2);
+		} else if ( style == 44) {
         d = mContext.getResources().getDrawable(R.drawable.orioles_logo);
+		} else if ( style == 45) {
+        d = mContext.getResources().getDrawable(R.drawable.batman);
+		} else if ( style == 46) {
+        d = mContext.getResources().getDrawable(R.drawable.deadpool);
+		} else if ( style == 47) {
+        d = mContext.getResources().getDrawable(R.drawable.decepticons);
+		} else if ( style == 48) {
+        d = mContext.getResources().getDrawable(R.drawable.ironman);
+		} else if ( style == 49) {
+        d = mContext.getResources().getDrawable(R.drawable.minions);
+		} else if ( style == 50) {
+        d = mContext.getResources().getDrawable(R.drawable.spiderman);
+		} else if ( style == 51) {
+        d = mContext.getResources().getDrawable(R.drawable.superman);
 		}
         if (pos == 0) {
             mCLogoleft.setImageDrawable(d);
